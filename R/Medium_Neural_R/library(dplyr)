@@ -1,0 +1,9 @@
+library(dplyr)
+library(readr)
+library(ggplot2)
+
+# Load dataset
+churn_data <- read_csv('Telco-Customer-Churn.csv')
+
+# Take a quick look at the data
+glimpse(churn_data)

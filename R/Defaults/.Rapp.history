@@ -1,0 +1,261 @@
+x
+plot(7.03259 + x*0.04754, x)
+plt = plot(7.03259 + x*0.04754, x)
+?plot
+library("tidyverse")
+library(ggplot)
+?ggplot2
+?tidyverse
+Penguins
+penguins
+head(penguins)
+?tibble
+Tib=as.tibble(Coll)
+?as_tibble
+Tib=as_tibble(Coll)
+Tib
+plot(Coll$sales ~ Coll$TV)
+plot(Coll$sales ~ Coll$Radio)
+names(Coll)
+plot(Coll$sales ~ Coll$radio)
+plot(Coll$sales ~ Coll$newspaper)
+?par
+par(mfrow=c(1,3))
+plot(Coll$sales ~ Coll$newspaper)
+plot(Coll$sales ~ Coll$radio)
+plot(Coll$sales ~ Coll$TV)
+lm(Coll$sales ~ 1 + Coll$TV)
+lm(Coll$sales ~ 1 + Coll$radio)
+lm(Coll$sales ~ 1 + Coll$newspaper)
+penguins
+pg = as_tibble(penguins)
+pg
+glimpse(penguins)
+glimpse(pg)
+college=as_tibble(Coll)
+college
+install(MASS)
+install.packages("MASS")
+library(palmerpenguins)
+library(tidyverse)
+data(package="palmerpenguins")
+penguins
+penguins=as_tibble(penguins)
+penguins
+ggplot(data=penguins)
+ggplot(data=penguins,
+mapping = aes(x=flipper_length_mm, y=body_mass_g)
+)
+glimpse(penguins)
+names(penguin)
+names(penguins)
+mapping = aes(x=flipper_length, y=body_mass)
+ggplot(data=penguins,
+mapping = aes(x=flipper_length, y=body_mass)
+)
+ggplot(data=penguins,
+mapping = aes(x=flipper_len, y=body_mass)
+)
+ggplot(data=penguins,
+mapping = aes(x=flipper_len, y=body_mass)
+) + geom_point()
+ggplot(data=penguins,
+mapping = aes(x=flipper_len, y=body_mass, color=species)
+) + geom_point()
+ggplot(data=penguins,
+mapping = aes(x=flipper_len, y=body_mass, color=species)
+) + geom_point() + geom_smooth(method="lm")
+ggplot(data=penguins,
+mapping = aes(x=flipper_len, y=body_mass)
+) + geom_point(mapping=aes(color=species)) + geom_smooth(method="lm")
+ggplot(data=penguins,
+mapping = aes(x=flipper_len, y=body_mass)
+) + geom_point(mapping=aes(color=species, shape=species)) + geom_smooth(method="lm")
+ggplot(data=penguins,
+mapping = aes(x=flipper_len, y=body_mass)
+) + geom_point(mapping=aes(color=species, shape=species)) + geom_smooth(method="lm") + scale_color_colorblind()
+library(ggthemes)
+ggplot(data=penguins,
+mapping = aes(x=flipper_len, y=body_mass)
+) + geom_point(mapping=aes(color=species, shape=species)) + geom_smooth(method="lm") + scale_color_colorblind()
+?rss
+??rss
+library(MASS)
+library(tidyverse)
+library(ISLR2)
+Boston = as_tibble(Boston)
+Boston
+attach(Boston)
+lm(medv ~ lstat)
+lm.fit
+lm01 = lm(medv ~ lstat)
+lm01
+summary(lm01)
+coef(lm01)
+coef(lm01)[1]
+names(lm01)
+lm02 = lm(medv ~ 1 + lstat)
+lm02
+confint(lm01)
+library(ggthemes)
+ggplot(data=Boston,
+mapping = aes(x=lstat, y=medv)
+)
+ggplot(data=Boston,
+mapping = aes(x=lstat, y=medv) + geom.point()
+)
+ggplot(data=Boston,
+mapping = aes(x=lstat, y=medv)
+) + geom_point(mapping=aes(color=medv)) + geom_smooth(method="lm") + scale_color_colorblind()
+ggplot(data=Boston,
+mapping = aes(x=lstat, y=medv)
+) + geom_point(mapping=aes(color=medv)) + geom_smooth(method="lm")
+ggplot(data=Boston,
+) + geom_point(mapping=aes()) + geom_smooth(method="lm")
+ggplot(data=Boston,
+mapping = aes(x=lstat, y=medv)
+) + geom_point(mapping=aes(medv)) + geom_smooth(method="lm")
+ggplot(data=Boston,
+mapping = aes(x=lstat, y=medv)
+) + geom_point(mapping=aes(lstat)) + geom_smooth(method="lm")
+summary(lstat)
+ggplot(data=Boston,
+mapping = aes(x=medv, y=lstat)
+) + geom_point(mapping=aes(lstat)) + geom_smooth(method="lm")
+ggplot(data=Boston,
+mapping = aes(x=lstat, y=medv)
+) + geom_point(mapping=aes(medv)) + geom_smooth(method="lm")
+ggplot(data=Boston,
+mapping = aes(x=lstat, y=medv)
+) + geom_point(mapping=aes(medv~lstat)) + geom_smooth(method="lm")
+summary(medv)
+ggplot(data=Boston,
+mapping = aes(x=lstat, y=medv)
+) + geom_point(mapping=aes(medv)) + geom_smooth(method="lm")
+ggplot(data=Boston,
+mapping = aes(x=lstat, y=medv)
+) + geom_point(mapping=aes(lstat)) + geom_smooth(method="lm")
+summary(lm01)
+confint(lm01)
+plot( hatvalues (lm.fit))
+plot( hatvalues (lm01))
+lm03=lm(medv ~ lstat + age )
+summary(lm03)
+lm04=lm(medv ~ . )
+lm04=lm(medv ~ ., data=Boston)
+summary(lm04)
+lm05=lm(medv ~ lstat + I(lstat^2), data=Boston)
+summary(lm01)
+summary(lm05)
+confint(lm05)
+ggplot(data=Boston,
+mapping = aes(x=lstat + lstat^2, y=medv)
+) + geom_point(mapping=aes(lstat)) + geom_smooth(method="lm")
+ggplot(data=Boston,
+mapping = aes(x=lstat + lstat^2, y=medv)
+) + geom_point(mapping=aes(lstat+lstat^2)) + geom_smooth(method="lm")
+plot(lm05)
+source("/Users/rob/Projects/R/ISLR2/Boston.R")
+edit(lm05)
+edit()
+edit(lm05)
+source("/Users/rob/Projects/R/ISLR2/Boston.R")
+lm01
+source("/Users/rob/Projects/R/ISLR2/Boston.R")
+# install.packages("pak")#
+pak::pak(c(#
+  "r-causal/causalworkshop",#
+  "r-causal/ggdag",#
+  "r-causal/halfmoon",#
+  "r-causal/propensity",#
+  "r-causal/tipr",#
+  "LucyMcGowan/touringplans"#
+))
+source("/Users/rob/Projects/R/ISLR2/InstallAndLoadScripts/loadlibraries.R")
+loadISLR2libraries()
+loadISLR2Libraries()
+source("/Users/rob/Projects/R/ISLR2/Labs/Lab 01- Linear regression")
+as_tibble(Boston)
+source("/Users/rob/Projects/R/ISLR2/Labs/Lab 01- Linear regression")
+lm01 = lm(mdev ~ ., data=Boston)
+lm01 = lm(medv ~ ., data=Boston)
+summary(lm01)
+source("/Users/rob/Projects/R/ISLR2/Labs/Lab 01- Linear regression")
+lm02 = lm(medv ~ lstat, data=Boston)
+summary(lm02)
+pairs(Boston)
+summary(lm(medv ~ lstat + rm, data=Boston))
+names(Boston)
+pairs(Boston[c(1, 2, 3, 4, 5, 13)])
+pairs(Boston[c(6, 7, 8, 9, 10. 11, 12, 13)])
+pairs(Boston[c(6, 7, 8, 9, 10, 11, 12, 13)])
+summary(lm(medv ~ lstat + rm + age, data=Boston))
+summary(lm(medv ~ ., data=Boston))
+summary(lm(medv ~ . - indus, data=Boston))
+summary(lm(medv ~ . - indus - age, data=Boston))
+confint(lm02)
+coef(lm02)
+as_tibble(Credit)
+summary(lm(Balance ~ Own, data=Credit))
+?lm
+table(Credit$Region)
+summary(lm(Balance ~ Region, data=Credit))
+as_tibble(Carseats)
+lm01 = lm(Sales ~ . + Income:Advertising + Price:Age, data=Carseats)
+summary(lm01)
+attach(Carseats)
+contrasts(ShelveLoc)
+source("/Users/rob/Projects/R/ISLR2/Examples/Defaults/Defaults.R")
+source("/Users/rob/Projects/R/ISLR2/Examples/Boston/Boston.R")
+source("/Users/rob/Projects/R/ISLR2/Examples/Boston/Boston.R")
+source("/Users/rob/Projects/R/ISLR2/Examples/Defaults/Defaults.R")
+??grid.arrange
+??grid.arrange
+source("/Users/rob/Projects/R/ISLR2/Examples/Boston/Boston.R")
+source("/Users/rob/Projects/R/ISLR2/Examples/Defaults/Defaults.R")
+library(GridExtra)
+library(gridExtra)
+source("/Users/rob/Projects/R/ISLR2/Examples/Defaults/Defaults.R")
+library(laplacesDemons)
+library(LaplacesDemons)
+install.packages("LplacesDemons")
+install.packages("LaplacesDemons")
+install.packages("LaplacesDemon")
+library(LaplacesDemon)
+source("/Users/rob/Projects/R/ISLR2/Examples/Defaults/Defaults.R")
+source("/Users/rob/Projects/R/ISLR2/Examples/Defaults/Defaults.R")
+source("/Users/rob/Projects/R/ISLR2/InstallAndLoadScripts/loadlibraries.R")
+source("/Users/rob/Projects/R/ISLR2/InstallAndLoadScripts/loadlibraries.R")
+source("/Users/rob/Projects/R/ISLR2/Examples/Defaults/Defaults.R")
+source("/Users/rob/Projects/R/ISLR2/Examples/Defaults/Defaults.R")
+source("/Users/rob/Projects/R/ISLR2/Examples/Defaults/Defaults.R")
+print(glm01)
+print(predict(glm01))
+predict(glm01, c(500, 1000, 1500, 2000))
+predict(glm01, list(500, 1000, 1500, 2000))
+predict(glm01, balance=c(500, 1000, 1500, 2000))
+?predict
+predict(glm01, data.frame(balance=c(500, 1000, 1500, 2000))
+)
+invlogit(predict(glm01, data.frame(balance=c(500, 1000, 1500, 2000))))
+print(summary(glm01))
+coef(glm01)[1]
+coef(glm01)[1] + coef(glm01)[2] * c(500, 1000, 1500, 2000)
+as_tibble(Credit)
+??solve
+?solve
+hilbert <- function(n) { i <- 1:n; 1 / outer(i - 1, i, `+`) }#
+h8 <- hilbert(8); h8#
+sh8 <- solve(h8)#
+round(sh8 %*% h8, 3)
+?solve
+a = matrix(c(1, 2, 2, 4), nrow=2)
+a
+b = c(3, 4)
+solve(a, b)
+a = matrix(c(1, 2, 2, 5), nrow=2)
+solve(a, b)
+?nn
+??neural
+??neural
+??PCA

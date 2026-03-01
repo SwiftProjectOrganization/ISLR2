@@ -1,0 +1,136 @@
+setwd("~/Projects/R/ISLR2")
+
+getwd()
+
+source("InstallAndLoadScripts/loadlibraries.R")
+
+loadISLR2Libraries()
+
+getwd()
+
+Greenhouses = read.csv("data/GreenhousesValidation.csv")
+
+as_tibble(Greenhouses)[1:10,]
+
+y = -3529.3633 + 130.16*Greenhouses$solarPanels + 623.554*Greenhouses$greenhouses + 5.7672*Greenhouses$size
+
+print(y[1:10])
+
+summary(Greenhouses)
+
+max(Greenhouses["price"] - Greenhouses["price.1"])
+
+RSS = sum((Greenhouses["price"] - Greenhouses["price.1"])^2)
+
+print(RSS)
+
+MSE = sqrt(RSS/76)
+
+print(MSE)
+
+#cbPalette = c("#999999", "#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2", "#D55E00", "#CC79A7")
+#scale_colour_manual(values=cbPalette)
+
+lm01 = lm(price ~ solarPanels + greenhouses + size, data=Greenhouses)
+summary(lm01)
+
+options(repr.plot.width = 15, repr.plot.height = 12)
+f1 = ggplot(Greenhouses, aes(x=greenhouses, y=price)) +
+  geom_point(size=0.75, col="orange") +
+  geom_smooth(method = "lm", col="blue") +
+  ggtitle("price ~ greenhouses") +
+  #xlim(0, 300) +
+  scale_fill_hue(l=40)
+
+f2 = ggplot(Greenhouses, aes(x=solarPanels, y=price)) +
+  geom_point(size=0.75, col="orange") +
+  geom_smooth(method = "lm", col="blue") +
+  ggtitle("price ~ solarPanels") +
+  #xlim(0, 300) +
+  scale_fill_hue(l=40)
+
+f3 = ggplot(Greenhouses, aes(x=size, y=price)) +
+  geom_point(size=0.75, col="orange") +
+  geom_smooth(method = "lm", col="blue") +
+  ggtitle("price ~ size") +
+  #xlim(0, 300) +
+  scale_fill_hue(l=40)
+
+grid.arrange(f1, f2, f3, ncol = 3)
+
+gh=3; sp=14; sz=530
+x = seq(from=4, to=40, by=0.5)
+newDf = data.frame(x = x, y = -3529.3633 + 130.16*x + 623.554*gh + 5.7672*sz)
+#as_tibble(newDf)[1:10,]
+
+options(repr.plot.width = 15, repr.plot.height = 12)
+f4 = ggplot(Greenhouses, aes(x=solarPanels, y=price)) +
+  geom_point(size=0.75, col="orange") +
+  geom_smooth(method = "lm", col="blue") +
+  geom_line(data=newDf, aes(x=x, y=y)) +
+  ggtitle("price ~ greenhouses")
+plot(f4)
+
+names(lm01)
+
+dim(Greenhouses)
+
+residuals(lm01)[1:10]
+
+RSS = sum(residuals(lm01)^2)
+
+RSS
+
+MSE = sqrt(RSS/76)
+
+MSE
+
+mean_price = mean(Greenhouses$price)
+
+mean_price
+
+TSS = sum((Greenhouses$price - mean_price)^2)
+
+TSS
+
+R2 = 1 - RSS/TSS
+
+R2
+
+cor(Greenhouses$price, predict(lm01))^2
+
+p = 3
+
+n = 80
+
+R_adj = 1 - ((1 - R2) * (n - 1) / (n - p - 1))
+
+R_adj
+
+F_stat = ((TSS-RSS)/p)/(RSS/(n-p-1))
+
+F_stat
+
+p_value = pf(F_stat, p, n-p-1, lower.tail=FALSE)
+
+p_value
+
+str_interp("RSS = ${RSS}, MSE = ${MSE}, R2 = ${R2}, R_adj = ${R_adj}, F = ${F_stat}, 
+           p = ${p_value}")
+
+summary(lm01)
+
+Greenhouses$pred = predict(lm01)
+
+as_tibble(Greenhouses)[1:15,]
+
+dim(Greenhouses)
+
+options(repr.plot.width = 20, repr.plot.height =10)
+ggplot() + 
+  geom_point(data = Greenhouses, aes(x=1:80, y = price), color = "red") +
+  geom_point(data = Greenhouses, aes(x=1:80, y = price.1), color = "green") +
+  geom_point(data = Greenhouses, aes(x=1:80, y = pred), color = "blue") +
+  xlab('observation') + ylab('price')
+
+

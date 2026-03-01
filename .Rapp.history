@@ -1,0 +1,293 @@
+}
+}
+rss()
+rss <- function() {
+for (i in 1:5) {
+print(Advertising[i,1])
+}
+}
+rss()
+head(Advertising)
+Advertising[1, "sales"]
+Advertising[1, "sales"] * 3
+Advertising[1, ] %>% pull("sales")
+c(Advertising[1, ] %>% pull("sales"), Advertising[1,] %>% pull("TV"))
+dim(Advertising)
+source("/Users/rob/Projects/R/ISLR2/Advertising.R")
+"sales" in names(Advertising)
+?in
+grepl("sales", names(Advertising))
+grepl("sales", names(Advertising)) %>% or
+grepl("sales", names(Advertising)) %>% union
+?union
+"sales" %in% names(Advertising)
+source("/Users/rob/Projects/R/ISLR2/Advertising.R")
+rss(Advertising, "sales", "TV")
+print("sales", "no in", "matrix")
+source("/Users/rob/Projects/R/ISLR2/Advertising.R")
+source("/Users/rob/Projects/R/ISLR2/Advertising.R")
+source("/Users/rob/Projects/R/ISLR2/Advertising.R")
+source("/Users/rob/Projects/R/ISLR2/Advertising.R")
+rss(Advertising, "sales", "TV")
+rss(Advertising, "test", "TV")
+?return
+?break
+source("/Users/rob/Projects/R/ISLR2/Advertising.R")
+rss(Advertising, "test", "TV")
+source("/Users/rob/Projects/R/ISLR2/Advertising.R")
+rss(Advertising, "test", "TV")
+source("/Users/rob/Projects/R/ISLR2/Advertising.R")
+rss(Advertising, "test", "TV")
+df[1, "b0"]
+names(df)
+source("/Users/rob/Projects/R/ISLR2/Advertising.R")
+source("/Users/rob/Projects/R/ISLR2/Advertising.R")
+source("/Users/rob/Projects/R/ISLR2/Advertising.R")
+source("/Users/rob/Projects/R/ISLR2/Advertising.R")
+head(Advertising)
+source("/Users/rob/Projects/R/ISLR2/Advertising.R")
+source("/Users/rob/Projects/R/ISLR2/Advertising.R")
+source("/Users/rob/Projects/R/ISLR2/Advertising.R")
+source("/Users/rob/Projects/R/ISLR2/Advertising.R")
+source("/Users/rob/Projects/R/ISLR2/Advertising.R")
+F = rss(Advertising, df, "sales", "TV")
+dim(F)
+source("/Users/rob/Projects/R/ISLR2/Advertising.R")
+F = rss(Advertising, df, "sales", "TV")
+head(F)
+F[1:10,]
+F
+F = rss(Advertising, df, "sales", "TV")
+F
+source("/Users/rob/Projects/R/ISLR2/Advertising.R")
+F
+F = rss(Advertising, df, "sales", "TV")
+F
+dim(F)
+length(F)
+dim(df)
+source("/Users/rob/Projects/R/ISLR2/Advertising.R")
+head(F)
+tail(F)
+tail(df)
+tail(Advertising)
+9 + 0.065*Advertising[200, "TV"]
+source("/Users/rob/Projects/R/ISLR2/Advertising.R")
+df
+b1range = seq(from=0.025, to=0.065, by=0.01)#
+b0range = seq(from=5, to=9, by=1)#
+df = data.frame(b0=rep(b0range, length(b1range)))#
+df$b1 = rep(b1range, length(b0range))
+b1range
+b0range
+df
+b1range = seq(from=0.025, to=0.065, by=0.01)#
+b0range = seq(from=5, to=9, by=1)#
+for (b0 in b0range) {#
+    b = rep(b0, length(b1range))#
+}#
+df = data.frame(b0=b)#
+#
+for (b1 in b1range) {#
+    b = rep(b1, length(b0range))#
+}#
+df$b1 = b
+df
+b1range = seq(from=0.025, to=0.065, by=0.01)#
+b0range = seq(from=5, to=9, by=1)#
+b = c()#
+for (b0 in b0range) {#
+    b = append(b, rep(b0, length(b1range)))#
+}#
+df = data.frame(b0=b)#
+#
+b = c()#
+for (b0 in b0range) {#
+    b = append(b, b1range)#
+}#
+df$b1 = b
+df
+source("/Users/rob/Projects/R/ISLR2/Advertising.R")
+source("/Users/rob/Projects/R/ISLR2/Advertising.R")
+RSS <- rss(Advertising, df, "sales", "TV")
+RSS
+dim(df)
+df$RSS = RSS
+df
+contour(df$b0, df$b1, df$RSS)
+x <- b0range#
+y <- b1range#
+#z <- sqrt(outer(x^2, y^2, "+"))#
+contour(x, y, df$RSS)
+df
+clear
+clr
+b1range = seq(from=0.025, to=0.065, by=0.01)#
+b0range = seq(from=5, to=9, by=01)
+M <- matrix(0.0, length(b0range), length(b1range))
+M
+for (i in 1:length(b0range)) {
+for (j in 1:length(b1range)) {
+M = matrix(df$RSS, 5, 5)
+M = matrix(df$RSS, 5, 5)
+M
+contour(b0range, b1range, M)
+?contour
+contour(b0range, b1range, M, nlevels=20)
+contour(b0range, b1range, M, nlevels=30)
+?contour
+source("/Users/rob/Projects/R/ISLR2/Advertising.R")
+RSS
+source("/Users/rob/Projects/R/ISLR2/Advertising.R")
+RSS
+summary(lm01)
+names(lm01)
+source("/Users/rob/Projects/R/ISLR2/Advertising.R")
+source("/Users/rob/Projects/R/ISLR2/Advertising.R")
+source("/Users/rob/Projects/R/ISLR2/Advertising.R")
+tail(df)
+source("/Users/rob/Projects/R/ISLR2/Advertising.R")
+M
+source("/Users/rob/Projects/R/ISLR2/Advertising.R")
+M
+b0range
+b1range
+source("/Users/rob/Projects/R/ISLR2/Advertising.R")
+contour(x, y, M)
+contour(x, y, M, nlevels=20)
+contour(x, y, M, nlevels=50)
+contour(x, y, M, nlevels=60)
+M
+b1range
+b0range
+source("/Users/rob/Projects/R/ISLR2/Advertising.R")
+contour(x, y, M, nlevels=5)
+contour(x, y, M, nlevels=6)
+contour(x, y, M, nlevels=75)
+?contour
+contour(x, y, M, levels=c(2100, 2200, 3000, 4000))
+?plot
+Speed <- cars$speed#
+Distance <- cars$dist#
+plot(Speed, Distance, panel.first = grid(8, 8),#
+     pch = 0, cex = 1.2, col = "blue")#
+plot(Speed, Distance,#
+     panel.first = lines(stats::lowess(Speed, Distance), lty = "dashed"),#
+     pch = 0, cex = 1.2, col = "blue")
+cols <- hcl.colors(10, "YlOrRd")
+contour(x, y, M, levels=c(2100, 2200, 3000, 4000), cols)
+contour(x, y, M, levels=c(2100, 2200, 3000, 4000), col=cols)
+contour(x, y, M, levels=c(2100, 2150, 2200, 3000, 4000, 5000), col=cols)
+contour(x, y, M, levels=c(2125, 2150, 2200, 3000, 4000, 5000), col=cols)
+contour(x, y, M, levels=c(2110, 2150, 2200, 3000, 4000, 5000), col=cols)
+source("/Users/rob/Projects/R/ISLR2/Advertising.R")
+source("/Users/rob/Projects/R/ISLR2/Advertising.R")
+contour(x, y, M, levels=c(2110, 2125, 2150, 2200, 3000, 4000, 5000), col=cols)
+M
+source("/Users/rob/Projects/R/ISLR2/Advertising.R")
+source("/Users/rob/Projects/R/ISLR2/Advertising.R")
+source("/Users/rob/Projects/R/ISLR2/Advertising.R")
+RSE = sqrt(2100/198)
+RSE
+TSS=1 - RSS/RSE
+TSS = sum((Advertising[,"sales"] - mean(Advertising[,"sales"]))^2)
+sales = Advertising[,"sales"]
+sales
+TSS = sum((sales - mean(sales))^2)
+m = mean(sales)
+m = mean(Advertising$sales)
+m
+TSS = sum((sales - m)^2)
+TSS
+1 - RSS/TSS
+sum(residuals(lm02)^2)
+sum(residuals(lm01)^2)
+source("/Users/rob/Projects/R/ISLR2/Advertising.R")
+source("/Users/rob/Projects/R/ISLR2/Advertising.R")
+source("/Users/rob/Projects/R/ISLR2/Advertising.R")
+source("/Users/rob/Projects/R/ISLR2/Advertising.R")
+cor(Advertising$TV, Advertising$sales)
+%1^2
+cor(Advertising$TV, Advertising$sales)^2
+source("/Users/rob/Projects/R/ISLR2/Advertising.R")
+lm02
+lm02 = lm(sales ~ TV + radio + newspaper, data=Advertising)
+summary(lm02)
+confint(lm02)
+residuals(lm02)^2
+sum(residuals(lm02)^2)
+v <- ggplot(faithfuld, aes(waiting, eruptions, z = density))#
+v + geom_contour()
+head(faithfuld)
+M
+length(b1range)
+b1range
+b0range
+dim(faiktfuld)
+dim(faithfuld)
+faithfuld[1:100,]
+print(n=100)
+print(faithfuld, n=100)
+plot(faithfuld$waiting)
+df
+source("/Users/rob/Projects/R/ISLR2/Advertising.R")
+source("/Users/rob/Projects/R/ISLR2/Advertising.R")
+source("/Users/rob/Projects/R/ISLR2/Advertising.R")
+source("/Users/rob/Projects/R/ISLR2/Advertising.R")
+source("/Users/rob/Projects/R/ISLR2/Advertising.R")
+source("/Users/rob/Projects/R/ISLR2/Advertising.R")
+source("/Users/rob/Projects/R/ISLR2/Advertising.R")
+df
+dim(df)
+head(df)
+source("/Users/rob/Projects/R/ISLR2/Advertising.R")
+i = 3
+i =+ 1
+i
+?autoincrement
+??autoincrement
+source("/Users/rob/Projects/R/ISLR2/Advertising.R")
+head(df)
+source("/Users/rob/Projects/R/ISLR2/Advertising.R")
+head(df)
+df
+b1range[2]
+b1range[1]
+source("/Users/rob/Projects/R/ISLR2/Advertising.R")
+source("/Users/rob/Projects/R/ISLR2/Advertising.R")
+source("/Users/rob/Projects/R/ISLR2/Advertising.R")
+source("/Users/rob/Projects/R/ISLR2/Advertising.R")
+source("/Users/rob/Projects/R/ISLR2/Advertising.R")
+length(b0range)
+length(b1range)
+source("/Users/rob/Projects/R/ISLR2/Advertising.R")
+source("/Users/rob/Projects/R/ISLR2/Advertising.R")
+source("/Users/rob/Projects/R/ISLR2/Advertising.R")
+head(df, n=25)
+tail(df)
+df
+source("/Users/rob/Projects/R/ISLR2/Advertising.R")
+tail(df)
+source("/Users/rob/Projects/R/ISLR2/Advertising.R")
+head(df)
+df[100,1]
+df[150,1:3]
+df[130,1:3]
+df[135,1:3]
+df[135,1:3]
+df[145,1:3]
+df[146,1:3]
+v <- ggplot(df, aes(b0, b1, z = rss))#
+v + geom_contour()
+v <- ggplot(df, aes(b0, b1, z = rss), bins=20)#
+v + geom_contour()
+v <- ggplot(df, aes(b0, b1, z = rss))#
+v + geom_contour(bins=20)
+v <- ggplot(df, aes(b0, b1, z = rss))#
+v + geom_contour(bins=30)
+v <- ggplot(df, aes(b0, b1, z = rss))#
+v + geom_contour(bins=50)
+v <- ggplot(df, aes(b0, b1, z = rss))#
+v + geom_contour(binwidth=0.001)
+v <- ggplot(df, aes(b0, b1, z = rss))#
+v + geom_contour(binwidth=0.0001)
