@@ -63,3 +63,5 @@ installNeuralLibraries = function() {
 loadNeuralLibraries = function() {
   library(keras3)
 }
+
+options(repr.plot.width = 15, repr.plot.height = 12)
