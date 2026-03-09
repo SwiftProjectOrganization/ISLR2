@@ -1,0 +1,22 @@
+{
+  "activityEntities" : [
+
+  ],
+  "createdDate" : "2026-03-03T20:02:12Z",
+  "dataPathRelativeToProjectURL" : "../../data/GreenhousesValidation.csv/",
+  "dataResult" : {
+    "createdDate" : "2026-03-03T20:02:12Z",
+    "dataSourceID" : "EB0F9290-E3C8-4CDD-B2BC-0D623A3913CF",
+    "dataURL" : "file:///Users/rob/Projects/R/ISLR2/data/GreenhousesValidation.csv"
+  },
+  "dataURL" : "file:///Users/rob/Projects/R/ISLR2/data/GreenhousesValidation.csv",
+  "experimentIDs" : [
+    "EBACD92B-1D00-4CC2-A662-50866A117623"
+  ],
+  "id" : "EB0F9290-E3C8-4CDD-B2BC-0D623A3913CF",
+  "modifiedDate" : "2026-03-03T20:02:12Z",
+  "pathType" : 0,
+  "preferredFilename" : "GreenhousesValidation.csv",
+  "title" : "GreenhousesValidation.csv",
+  "version" : "1.0"
+}

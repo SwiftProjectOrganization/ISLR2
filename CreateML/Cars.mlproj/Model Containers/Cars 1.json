@@ -1,0 +1,391 @@
+{
+  "activityEntities" : [
+    "trainingDataAdded",
+    [
+      {
+        "createdDate" : "2026-03-05T15:16:17Z",
+        "event" : "trainingDataAdded",
+        "id" : "BFE78E02-AFEA-45A6-8D12-774F17BF28F0",
+        "subtitle" : "cars.csv",
+        "title" : "Training Data Added"
+      }
+    ],
+    "experimentCreated",
+    [
+      {
+        "createdDate" : "2026-03-05T15:15:52Z",
+        "event" : "experimentCreated",
+        "id" : "32F5FF04-0CE0-4B51-904F-BF281EE37BFC",
+        "subtitle" : "Cars 1",
+        "title" : "Model Source Created"
+      }
+    ],
+    "evaluationDataAdded",
+    [
+      {
+        "createdDate" : "2026-03-05T15:25:41Z",
+        "event" : "evaluationDataAdded",
+        "id" : "908ACF13-69D8-4A3B-8FEA-5C519BA0FDB2",
+        "subtitle" : "cars.csv",
+        "title" : "Testing Data Added"
+      }
+    ],
+    "trainingStarted",
+    [
+      {
+        "createdDate" : "2026-03-05T15:16:44Z",
+        "event" : "trainingStarted",
+        "id" : "17C15D17-9401-4273-BE8E-00B8B40FE36A",
+        "subtitle" : "Cars 1",
+        "title" : "Training Started"
+      }
+    ],
+    "trainingFinished",
+    [
+      {
+        "createdDate" : "2026-03-05T15:16:44Z",
+        "event" : "trainingFinished",
+        "id" : "CF8F50FE-DCD0-48A5-8205-A288DE4F7E76",
+        "subtitle" : "Cars 1",
+        "title" : "Training Completed"
+      }
+    ]
+  ],
+  "contentDataResult" : {
+    "createdDate" : "2026-03-05T15:16:17Z"
+  },
+  "createdDate" : "2026-03-05T15:15:52Z",
+  "evaluationContainerEntity" : {
+    "createdDate" : "2026-03-05T15:25:41Z",
+    "evaluationEntities" : [
+      {
+        "analysedDataType" : "datasource",
+        "createdDate" : "2026-03-05T15:16:44Z",
+        "dataResult" : {
+          "columnTypes" : [
+            "String",
+            "Int",
+            "Int",
+            "Double",
+            "String",
+            "String",
+            "Int",
+            "Int",
+            "Int"
+          ],
+          "columnValues" : [
+            "Swift Compact, Swift Compact, Swift Compact, Swift Compact, Swift Compact, Swift Compact, Swift Compact, Swift Compact, Swift Compact, Swift Compact, Swift Compact, Swift Compact, Swift Compact, Swift Compact, Swift Compact, Swift Compact, Swift Compact, Swift Compact, Swift Compact, Swift Compact, Swift Compact, Swift Compact, Swift Compact, Swift Compact, Swift Compact, Swift Compact, Swift Compact, Swift Compact, Swift Compact, Swift Compact",
+            "2,018, 2,024, 2,020, 2,021, 2,025, 2,016, 2,018, 2,020, 2,016, 2,015, 2,017, 2,017, 2,022, 2,022, 2,021, 2,015, 2,018, 2,015, 2,015, 2,016, 2,016, 2,020, 2,020, 2,018, 2,021, 2,023, 2,020, 2,017, 2,018, 2,015",
+            "32,107, 89,130, 64,499, 120,316, 71,173, 98,028, 39,805, 61,004, 102,278, 113,123, 38,174, 26,674, 63,360, 5,865, 103,798, 30,891, 54,270, 51,200, 29,661, 54,829, 133,996, 58,063, 5,860, 40,554, 69,893, 18,029, 29,341, 102,176, 25,630, 62,071",
+            "1.00, 1.40, 1.20, 1.00, 1.00, 1.20, 1.20, 1.00, 1.00, 1.20, 1.00, 1.00, 1.00, 1.20, 1.00, 1.40, 1.00, 1.20, 1.20, 1.20, 1.20, 1.40, 1.20, 1.20, 1.40, 1.20, 1.00, 1.20, 1.20, 1.40",
+            "petrol, hybrid, petrol, petrol, petrol, hybrid, hybrid, hybrid, petrol, petrol, petrol, hybrid, petrol, hybrid, hybrid, hybrid, petrol, petrol, hybrid, petrol, hybrid, petrol, hybrid, hybrid, petrol, petrol, petrol, petrol, hybrid, hybrid",
+            "manual, manual, manual, manual, automatic, automatic, manual, manual, automatic, manual, manual, automatic, automatic, automatic, automatic, automatic, manual, automatic, automatic, automatic, automatic, manual, automatic, manual, manual, manual, manual, automatic, automatic, manual",
+            "3, 2, 1, 1, 3, 4, 3, 2, 3, 1, 4, 3, 1, 1, 2, 4, 4, 2, 2, 4, 2, 2, 3, 1, 3, 2, 2, 2, 4, 2",
+            "4, 2, 5, 2, 2, 2, 5, 2, 2, 4, 2, 3, 4, 2, 3, 2, 3, 4, 2, 2, 5, 2, 2, 5, 5, 4, 4, 5, 3, 4",
+            "23,500, 21,500, 26,000, 16,000, 22,000, 15,000, 27,500, 21,000, 13,500, 18,000, 18,000, 23,000, 25,500, 25,000, 21,500, 18,000, 19,500, 22,500, 19,500, 17,000, 21,500, 20,000, 24,500, 28,500, 26,500, 28,000, 25,000, 23,500, 22,500, 21,500"
+          ],
+          "columns" : [
+            "model",
+            "year",
+            "mileage",
+            "engine_litres",
+            "fuel_type",
+            "transmission",
+            "owners",
+            "condition_score",
+            "price"
+          ],
+          "createdDate" : "2026-03-05T15:25:25Z",
+          "dataAnalysis" : {
+            "classifierAnalysis" : {
+
+            },
+            "issues" : [
+              {
+                "description" : "Data has 4000 rows",
+                "severity" : "info"
+              }
+            ],
+            "objectDetectorAnalysis" : {
+              "details" : {
+
+              }
+            },
+            "summary" : {
+              "canUseValidation" : 1,
+              "maximum" : 131000,
+              "minimum" : 11000,
+              "sampleCount" : 4000
+            }
+          },
+          "dataSourceID" : "182CAF57-78AB-4020-B238-8BE883134B5F",
+          "dataURL" : "file:///Users/rob/Projects/Swift/AIPlaybookv2/Data/cars.csv",
+          "itemsCount" : 4000
+        },
+        "dataSourceID" : "182CAF57-78AB-4020-B238-8BE883134B5F",
+        "id" : "7b386986-d944-4049-8615-1bf4e501e990"
+      }
+    ],
+    "id" : "0fee2486-f4b0-4833-a14d-a66d9b3498a1",
+    "modifiedDate" : "2026-03-05T15:25:41Z",
+    "previewType" : "tabularRegressor",
+    "testingEvaluationEntity" : {
+      "analysedDataType" : "none",
+      "createdDate" : "2026-03-05T15:15:52Z",
+      "dataResult" : {
+        "createdDate" : "2026-03-05T15:16:17Z"
+      },
+      "id" : "dc778269-2de2-4bb9-8df8-d4d5f7f84829"
+    },
+    "trainingEvaluationEntity" : {
+      "analysedDataType" : "none",
+      "createdDate" : "2026-03-05T15:15:52Z",
+      "dataResult" : {
+        "createdDate" : "2026-03-05T15:16:17Z",
+        "dataAnalysis" : {
+          "classifierAnalysis" : {
+
+          },
+          "issues" : [
+            {
+              "description" : "Data has 4000 rows",
+              "severity" : "info"
+            }
+          ],
+          "objectDetectorAnalysis" : {
+            "details" : {
+
+            }
+          },
+          "summary" : {
+            "canUseValidation" : 1,
+            "maximum" : 131000,
+            "minimum" : 11000,
+            "sampleCount" : 4000
+          }
+        },
+        "dataSourceID" : "182CAF57-78AB-4020-B238-8BE883134B5F",
+        "dataURL" : "file:///Users/rob/Projects/Swift/AIPlaybookv2/Data/cars.csv",
+        "itemsCount" : 4000
+      },
+      "dataSourceID" : "182CAF57-78AB-4020-B238-8BE883134B5F",
+      "evaluationResult" : {
+        "generalRegressor" : {
+          "maximumError" : 4694.96875,
+          "rootMeanSquaredError" : 1261.979382420224
+        }
+      },
+      "id" : "adfd8eee-ad00-4c0c-8161-0274be38a536"
+    },
+    "validationEvaluationEntity" : {
+      "analysedDataType" : "auto",
+      "createdDate" : "2026-03-05T15:15:52Z",
+      "dataResult" : {
+        "createdDate" : "2026-03-05T15:16:17Z"
+      },
+      "evaluationResult" : {
+        "generalRegressor" : {
+          "maximumError" : 6801.1015625,
+          "rootMeanSquaredError" : 1831.7290588987564
+        }
+      },
+      "id" : "263c66e8-8a47-43ae-a998-ddc31ed0d4db"
+    }
+  },
+  "evaluationEntity" : {
+    "analysedDataType" : "none",
+    "dataResult" : {
+
+    },
+    "id" : "927effa8-2c06-4e08-bb98-55efa83f8160"
+  },
+  "evaluationState" : "ready",
+  "id" : "47FC62DB-FCBC-4FC2-9F8C-C154D7F2E345",
+  "modelEntity" : {
+    "createdDate" : "2026-03-05T15:15:52Z",
+    "experimentID" : "47FC62DB-FCBC-4FC2-9F8C-C154D7F2E345",
+    "id" : "09E05BC1-FEAD-4961-8E5C-C42F8CF52395",
+    "modelURL" : "Models/Cars%201.mlmodel",
+    "modifiedDate" : "2026-03-05T15:15:52Z",
+    "title" : "",
+    "version" : "1.0"
+  },
+  "modifiedDate" : "2026-03-05T15:25:41Z",
+  "preferredFilename" : "Cars 1",
+  "settingEntity" : {
+    "algorithmType" : "maxEnt",
+    "augmentations" : [
+
+    ],
+    "featureNames" : [
+      "model",
+      "year",
+      "mileage",
+      "engine_litres",
+      "fuel_type",
+      "transmission",
+      "owners",
+      "condition_score"
+    ],
+    "generalRegressorType" : {
+      "auto" : {
+
+      }
+    },
+    "handActionClassifierAugmentations" : [
+
+    ],
+    "handPoseClassifierAugmentations" : [
+
+    ],
+    "harVideoAugmentations" : 0,
+    "seedType" : "default",
+    "styleTransferAlgorithmType" : "image",
+    "suggestedColumnTypes" : [
+      "String",
+      "Int",
+      "Int",
+      "Double",
+      "String",
+      "String",
+      "Int",
+      "Int",
+      "Int"
+    ],
+    "suggestedColumnValues" : [
+      "Swift Compact, Swift Compact, Swift Compact, Swift Compact, Swift Compact, Swift Compact, Swift Compact, Swift Compact, Swift Compact, Swift Compact, Swift Compact, Swift Compact, Swift Compact, Swift Compact, Swift Compact, Swift Compact, Swift Compact, Swift Compact, Swift Compact, Swift Compact, Swift Compact, Swift Compact, Swift Compact, Swift Compact, Swift Compact, Swift Compact, Swift Compact, Swift Compact, Swift Compact, Swift Compact",
+      "2,018, 2,024, 2,020, 2,021, 2,025, 2,016, 2,018, 2,020, 2,016, 2,015, 2,017, 2,017, 2,022, 2,022, 2,021, 2,015, 2,018, 2,015, 2,015, 2,016, 2,016, 2,020, 2,020, 2,018, 2,021, 2,023, 2,020, 2,017, 2,018, 2,015",
+      "32,107, 89,130, 64,499, 120,316, 71,173, 98,028, 39,805, 61,004, 102,278, 113,123, 38,174, 26,674, 63,360, 5,865, 103,798, 30,891, 54,270, 51,200, 29,661, 54,829, 133,996, 58,063, 5,860, 40,554, 69,893, 18,029, 29,341, 102,176, 25,630, 62,071",
+      "1.00, 1.40, 1.20, 1.00, 1.00, 1.20, 1.20, 1.00, 1.00, 1.20, 1.00, 1.00, 1.00, 1.20, 1.00, 1.40, 1.00, 1.20, 1.20, 1.20, 1.20, 1.40, 1.20, 1.20, 1.40, 1.20, 1.00, 1.20, 1.20, 1.40",
+      "petrol, hybrid, petrol, petrol, petrol, hybrid, hybrid, hybrid, petrol, petrol, petrol, hybrid, petrol, hybrid, hybrid, hybrid, petrol, petrol, hybrid, petrol, hybrid, petrol, hybrid, hybrid, petrol, petrol, petrol, petrol, hybrid, hybrid",
+      "manual, manual, manual, manual, automatic, automatic, manual, manual, automatic, manual, manual, automatic, automatic, automatic, automatic, automatic, manual, automatic, automatic, automatic, automatic, manual, automatic, manual, manual, manual, manual, automatic, automatic, manual",
+      "3, 2, 1, 1, 3, 4, 3, 2, 3, 1, 4, 3, 1, 1, 2, 4, 4, 2, 2, 4, 2, 2, 3, 1, 3, 2, 2, 2, 4, 2",
+      "4, 2, 5, 2, 2, 2, 5, 2, 2, 4, 2, 3, 4, 2, 3, 2, 3, 4, 2, 2, 5, 2, 2, 5, 5, 4, 4, 5, 3, 4",
+      "23,500, 21,500, 26,000, 16,000, 22,000, 15,000, 27,500, 21,000, 13,500, 18,000, 18,000, 23,000, 25,500, 25,000, 21,500, 18,000, 19,500, 22,500, 19,500, 17,000, 21,500, 20,000, 24,500, 28,500, 26,500, 28,000, 25,000, 23,500, 22,500, 21,500"
+    ],
+    "suggestedColumns" : [
+      "model",
+      "year",
+      "mileage",
+      "engine_litres",
+      "fuel_type",
+      "transmission",
+      "owners",
+      "condition_score",
+      "price"
+    ],
+    "targetColumn" : "price",
+    "taskType" : "generalRegresor",
+    "transferLearningEmbeddingType" : "dynamic"
+  },
+  "snapshotRole" : {
+    "withoutSnapshots" : 0
+  },
+  "state" : "trained",
+  "title" : "Cars 1",
+  "trainingEntity" : {
+    "analysedDataType" : "datasource",
+    "checkpointMetrics" : {
+
+    },
+    "dataResult" : {
+      "columnTypes" : [
+        "String",
+        "Int",
+        "Int",
+        "Double",
+        "String",
+        "String",
+        "Int",
+        "Int",
+        "Int"
+      ],
+      "columnValues" : [
+        "Swift Compact, Swift Compact, Swift Compact, Swift Compact, Swift Compact, Swift Compact, Swift Compact, Swift Compact, Swift Compact, Swift Compact, Swift Compact, Swift Compact, Swift Compact, Swift Compact, Swift Compact, Swift Compact, Swift Compact, Swift Compact, Swift Compact, Swift Compact, Swift Compact, Swift Compact, Swift Compact, Swift Compact, Swift Compact, Swift Compact, Swift Compact, Swift Compact, Swift Compact, Swift Compact",
+        "2,018, 2,024, 2,020, 2,021, 2,025, 2,016, 2,018, 2,020, 2,016, 2,015, 2,017, 2,017, 2,022, 2,022, 2,021, 2,015, 2,018, 2,015, 2,015, 2,016, 2,016, 2,020, 2,020, 2,018, 2,021, 2,023, 2,020, 2,017, 2,018, 2,015",
+        "32,107, 89,130, 64,499, 120,316, 71,173, 98,028, 39,805, 61,004, 102,278, 113,123, 38,174, 26,674, 63,360, 5,865, 103,798, 30,891, 54,270, 51,200, 29,661, 54,829, 133,996, 58,063, 5,860, 40,554, 69,893, 18,029, 29,341, 102,176, 25,630, 62,071",
+        "1.00, 1.40, 1.20, 1.00, 1.00, 1.20, 1.20, 1.00, 1.00, 1.20, 1.00, 1.00, 1.00, 1.20, 1.00, 1.40, 1.00, 1.20, 1.20, 1.20, 1.20, 1.40, 1.20, 1.20, 1.40, 1.20, 1.00, 1.20, 1.20, 1.40",
+        "petrol, hybrid, petrol, petrol, petrol, hybrid, hybrid, hybrid, petrol, petrol, petrol, hybrid, petrol, hybrid, hybrid, hybrid, petrol, petrol, hybrid, petrol, hybrid, petrol, hybrid, hybrid, petrol, petrol, petrol, petrol, hybrid, hybrid",
+        "manual, manual, manual, manual, automatic, automatic, manual, manual, automatic, manual, manual, automatic, automatic, automatic, automatic, automatic, manual, automatic, automatic, automatic, automatic, manual, automatic, manual, manual, manual, manual, automatic, automatic, manual",
+        "3, 2, 1, 1, 3, 4, 3, 2, 3, 1, 4, 3, 1, 1, 2, 4, 4, 2, 2, 4, 2, 2, 3, 1, 3, 2, 2, 2, 4, 2",
+        "4, 2, 5, 2, 2, 2, 5, 2, 2, 4, 2, 3, 4, 2, 3, 2, 3, 4, 2, 2, 5, 2, 2, 5, 5, 4, 4, 5, 3, 4",
+        "23,500, 21,500, 26,000, 16,000, 22,000, 15,000, 27,500, 21,000, 13,500, 18,000, 18,000, 23,000, 25,500, 25,000, 21,500, 18,000, 19,500, 22,500, 19,500, 17,000, 21,500, 20,000, 24,500, 28,500, 26,500, 28,000, 25,000, 23,500, 22,500, 21,500"
+      ],
+      "columns" : [
+        "model",
+        "year",
+        "mileage",
+        "engine_litres",
+        "fuel_type",
+        "transmission",
+        "owners",
+        "condition_score",
+        "price"
+      ],
+      "createdDate" : "2026-03-05T15:16:17Z",
+      "dataAnalysis" : {
+        "classifierAnalysis" : {
+
+        },
+        "issues" : [
+          {
+            "description" : "Data has 4000 rows",
+            "severity" : "info"
+          }
+        ],
+        "objectDetectorAnalysis" : {
+          "details" : {
+
+          }
+        },
+        "summary" : {
+          "canUseValidation" : 1,
+          "maximum" : 131000,
+          "minimum" : 11000,
+          "sampleCount" : 4000
+        }
+      },
+      "dataSourceID" : "182CAF57-78AB-4020-B238-8BE883134B5F",
+      "dataURL" : "file:///Users/rob/Projects/Swift/AIPlaybookv2/Data/cars.csv",
+      "itemsCount" : 4000
+    },
+    "dataSourceID" : "182CAF57-78AB-4020-B238-8BE883134B5F",
+    "featureExtractionCheckpointMayBeAvailable" : false,
+    "finishTime" : "2026-03-05T15:16:44Z",
+    "progress" : [
+
+    ],
+    "snapshottableCheckpoints" : {
+
+    },
+    "startTime" : "2026-03-05T15:16:44Z",
+    "trainingAccuracy" : 1261.979382420224,
+    "trainingResults" : {
+      "generalRegressor" : {
+        "maximumError" : 4694.96875,
+        "rootMeanSquaredError" : 1261.979382420224
+      }
+    },
+    "validationAccuracy" : 1831.7290588987564,
+    "validationResults" : {
+      "generalRegressor" : {
+        "maximumError" : 6801.1015625,
+        "rootMeanSquaredError" : 1831.7290588987564
+      }
+    }
+  },
+  "validationEntity" : {
+    "analysedDataType" : "auto",
+    "dataResult" : {
+      "createdDate" : "2026-03-05T15:16:17Z"
+    },
+    "splitOptions" : {
+      "strategy" : {
+        "automatic" : {
+
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

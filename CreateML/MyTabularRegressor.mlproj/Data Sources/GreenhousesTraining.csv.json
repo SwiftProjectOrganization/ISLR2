@@ -1,0 +1,41 @@
+{
+  "activityEntities" : [
+    "dataSourceMetrics",
+    [
+      {
+        "createdDate" : "2026-03-03T20:02:35Z",
+        "event" : "dataSourceMetrics",
+        "id" : "96CCDBE9-DCD0-4803-AE3F-8458E212E900",
+        "subtitle" : "320 Items",
+        "title" : "Data Summary"
+      }
+    ],
+    "dataSourceTrainingStarted",
+    [
+      {
+        "createdDate" : "2026-03-03T20:02:35Z",
+        "event" : "dataSourceTrainingStarted",
+        "id" : "F1F87481-1F52-40E9-840B-F0ED24688533",
+        "subtitle" : "MyTabularRegressor 1",
+        "title" : "Used By"
+      }
+    ]
+  ],
+  "createdDate" : "2026-03-03T20:01:35Z",
+  "dataPathRelativeToProjectURL" : "../../data/GreenhousesTraining.csv/",
+  "dataResult" : {
+    "createdDate" : "2026-03-03T20:01:35Z",
+    "dataSourceID" : "8C3A6B98-10BE-4478-BBD5-76EC7838D0E2",
+    "dataURL" : "file:///Users/rob/Projects/R/ISLR2/data/GreenhousesTraining.csv"
+  },
+  "dataURL" : "file:///Users/rob/Projects/R/ISLR2/data/GreenhousesTraining.csv",
+  "experimentIDs" : [
+    "EBACD92B-1D00-4CC2-A662-50866A117623"
+  ],
+  "id" : "8C3A6B98-10BE-4478-BBD5-76EC7838D0E2",
+  "modifiedDate" : "2026-03-03T20:02:35Z",
+  "pathType" : 0,
+  "preferredFilename" : "GreenhousesTraining.csv",
+  "title" : "GreenhousesTraining.csv",
+  "version" : "1.0"
+}

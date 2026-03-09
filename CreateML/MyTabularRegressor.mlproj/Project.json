@@ -1,0 +1,29 @@
+{
+  "activityEntities" : [
+    "projectCreated",
+    [
+      {
+        "createdDate" : "2026-03-03T20:01:20Z",
+        "event" : "projectCreated",
+        "id" : "2E6416EC-251C-44E2-87F9-0E6F50998E9B",
+        "subtitle" : "MyTabularRegressor",
+        "title" : "Project Created"
+      }
+    ]
+  ],
+  "authorName" : "Robert Goedman",
+  "createdDate" : "2026-03-03T20:01:20Z",
+  "description" : "",
+  "id" : "ECA893E6-5922-4196-B24B-94CC78C9B683",
+  "license" : "",
+  "location" : "",
+  "modifiedDate" : "2026-03-03T20:01:20Z",
+  "projectName" : "MyTabularRegressor",
+  "settingsEntity" : {
+    "snapshotOnExtendTraining" : true,
+    "snapshotOnResumeTraining" : false
+  },
+  "taskType" : "generalRegresor",
+  "title" : "Tabular Regression",
+  "version" : "1.1"
+}
