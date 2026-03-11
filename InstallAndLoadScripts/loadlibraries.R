@@ -8,6 +8,8 @@ installISLR2Libraries = function() {
     install.packages("LaplacesDemon")
     install.packages("gridExtra")
     install.packages("glmnet")
+    install.packages("randonForest")
+    install.packages("tree")
 }
 
 loadISLR2Libraries = function() {
@@ -21,6 +23,8 @@ loadISLR2Libraries = function() {
     library(LaplacesDemon)
     library(gridExtra)
     library(glmnet)
+    library(randomForest)
+    library(tree)
 }
 
 installSRLibraries = function() {
