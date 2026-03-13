@@ -1,0 +1,2 @@
+cd Projects/R/ISLR2/
+jupyter nbconvert --to script Labs/Lab08.ipynb

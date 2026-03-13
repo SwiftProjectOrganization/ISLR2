@@ -1,0 +1,41 @@
+{
+  "activityEntities" : [
+    "dataSourceTrainingStarted",
+    [
+      {
+        "createdDate" : "2026-03-12T15:00:44Z",
+        "event" : "dataSourceTrainingStarted",
+        "id" : "411B96A0-53E1-499B-B729-D8F6929F4688",
+        "subtitle" : "CarseatsClassifier 1",
+        "title" : "Used By"
+      }
+    ],
+    "dataSourceMetrics",
+    [
+      {
+        "createdDate" : "2026-03-12T15:00:44Z",
+        "event" : "dataSourceMetrics",
+        "id" : "CCD021CE-6424-4BF7-820B-2CD8CA85D279",
+        "subtitle" : "2 Classes, 300 Items",
+        "title" : "Data Summary"
+      }
+    ]
+  ],
+  "createdDate" : "2026-03-12T14:59:46Z",
+  "dataPathRelativeToProjectURL" : "../../../data/Carseats_train.csv/",
+  "dataResult" : {
+    "createdDate" : "2026-03-12T14:59:46Z",
+    "dataSourceID" : "28E20484-F9A1-4539-9610-1111ADD40571",
+    "dataURL" : "file:///Users/rob/Projects/R/ISLR2/data/Carseats_train.csv"
+  },
+  "dataURL" : "file:///Users/rob/Projects/R/ISLR2/data/Carseats_train.csv",
+  "experimentIDs" : [
+    "6F42919A-A363-4750-893E-8D3727C0086D"
+  ],
+  "id" : "28E20484-F9A1-4539-9610-1111ADD40571",
+  "modifiedDate" : "2026-03-12T15:00:44Z",
+  "pathType" : 0,
+  "preferredFilename" : "Carseats_train.csv",
+  "title" : "Carseats_train.csv",
+  "version" : "1.0"
+}

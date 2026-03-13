@@ -1,0 +1,22 @@
+{
+  "activityEntities" : [
+
+  ],
+  "createdDate" : "2026-03-12T15:00:14Z",
+  "dataPathRelativeToProjectURL" : "../../../data/Carseats_test.csv/",
+  "dataResult" : {
+    "createdDate" : "2026-03-12T15:00:14Z",
+    "dataSourceID" : "1BAB914D-E3F6-4CE6-9626-10CA9D09338A",
+    "dataURL" : "file:///Users/rob/Projects/R/ISLR2/data/Carseats_test.csv"
+  },
+  "dataURL" : "file:///Users/rob/Projects/R/ISLR2/data/Carseats_test.csv",
+  "experimentIDs" : [
+    "6F42919A-A363-4750-893E-8D3727C0086D"
+  ],
+  "id" : "1BAB914D-E3F6-4CE6-9626-10CA9D09338A",
+  "modifiedDate" : "2026-03-12T15:00:14Z",
+  "pathType" : 0,
+  "preferredFilename" : "Carseats_test.csv",
+  "title" : "Carseats_test.csv",
+  "version" : "1.0"
+}

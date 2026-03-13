@@ -1,0 +1,626 @@
+{
+  "activityEntities" : [
+    "trainingDataAdded",
+    [
+      {
+        "createdDate" : "2026-03-12T14:59:46Z",
+        "event" : "trainingDataAdded",
+        "id" : "BFF94C25-F6C6-406B-8E47-0FA3318887BD",
+        "subtitle" : "Carseats_train.csv",
+        "title" : "Training Data Added"
+      }
+    ],
+    "trainingStarted",
+    [
+      {
+        "createdDate" : "2026-03-12T15:00:44Z",
+        "event" : "trainingStarted",
+        "id" : "4D4BFF5B-8EF1-4D3D-9F89-B4CF341204CC",
+        "subtitle" : "CarseatsClassifier 1",
+        "title" : "Training Started"
+      }
+    ],
+    "experimentCreated",
+    [
+      {
+        "createdDate" : "2026-03-12T14:59:35Z",
+        "event" : "experimentCreated",
+        "id" : "DF99219F-FA86-4C67-8937-B24060898009",
+        "subtitle" : "CarseatsClassifier 1",
+        "title" : "Model Source Created"
+      }
+    ],
+    "trainingFinished",
+    [
+      {
+        "createdDate" : "2026-03-12T15:00:45Z",
+        "event" : "trainingFinished",
+        "id" : "FFF1442B-E32D-4CDA-B9A3-7E86A7B6EE8C",
+        "subtitle" : "10 iterations",
+        "title" : "Training Completed"
+      }
+    ],
+    "evaluationDataAdded",
+    [
+      {
+        "createdDate" : "2026-03-12T15:00:14Z",
+        "event" : "evaluationDataAdded",
+        "id" : "8B8F3013-B213-419E-8484-E6146A8E7F07",
+        "subtitle" : "Carseats_test.csv",
+        "title" : "Testing Data Added"
+      }
+    ],
+    "evaluationStarted",
+    [
+      {
+        "createdDate" : "2026-03-12T15:00:47Z",
+        "event" : "evaluationStarted",
+        "id" : "B23853DB-258A-45E2-ADDC-A5359D9524CC",
+        "subtitle" : "CarseatsClassifier 1",
+        "title" : "Testing Started"
+      }
+    ],
+    "evaluationFinished",
+    [
+      {
+        "createdDate" : "2026-03-12T15:00:47Z",
+        "event" : "evaluationFinished",
+        "id" : "0640D684-61C4-49DE-9A29-BB067FF2787E",
+        "subtitle" : "CarseatsClassifier 1",
+        "title" : "Testing Completed"
+      }
+    ]
+  ],
+  "contentDataResult" : {
+    "createdDate" : "2026-03-12T14:59:46Z"
+  },
+  "createdDate" : "2026-03-12T14:59:35Z",
+  "evaluationContainerEntity" : {
+    "createdDate" : "2026-03-12T15:00:47Z",
+    "evaluationEntities" : [
+
+    ],
+    "id" : "7e806c53-6048-481e-80a2-e20605569a7a",
+    "modifiedDate" : "2026-03-12T15:00:47Z",
+    "previewType" : "tabularClassifier",
+    "testingEvaluationEntity" : {
+      "accuracy" : 0.949999988079071,
+      "analysedDataType" : "datasource",
+      "createdDate" : "2026-03-12T14:59:35Z",
+      "dataResult" : {
+        "classesCount" : 2,
+        "columnTypes" : [
+          "Int",
+          "Double",
+          "Int",
+          "Int",
+          "Int",
+          "Int",
+          "Int",
+          "String",
+          "Int",
+          "Int",
+          "String",
+          "String",
+          "String"
+        ],
+        "columnValues" : [
+          "5, 10, 15, 19, 22, 26, 30, 32, 33, 40, 46, 47, 49, 52, 59, 60, 64, 65, 66, 69, 73, 74, 84, 97, 105, 113, 114, 115, 119, 121",
+          "4.15, 4.69, 11.17, 13.91, 12.13, 14.90, 7.81, 8.25, 6.20, 3.24, 4.56, 12.44, 3.91, 4.42, 5.42, 5.21, 8.47, 7.80, 4.90, 13.39, 5.52, 12.61, 4.42, 9.48, 4.62, 6.67, 6.01, 9.31, 7.57, 6.87",
+          "141, 132, 107, 110, 134, 139, 104, 136, 107, 130, 141, 127, 116, 121, 103, 118, 119, 100, 122, 149, 115, 118, 109, 147, 121, 116, 131, 122, 112, 128",
+          "64, 113, 117, 110, 29, 32, 99, 58, 32, 60, 63, 90, 52, 90, 93, 71, 88, 67, 26, 69, 45, 90, 36, 42, 96, 99, 29, 87, 88, 105",
+          "3, 0, 11, 0, 12, 0, 15, 16, 12, 0, 0, 14, 0, 0, 15, 4, 10, 12, 0, 20, 0, 10, 7, 10, 0, 5, 11, 9, 2, 11",
+          "340, 131, 148, 408, 239, 176, 226, 241, 236, 144, 168, 16, 349, 150, 188, 148, 170, 184, 197, 366, 432, 54, 468, 407, 472, 298, 335, 17, 243, 249",
+          "128, 124, 118, 68, 109, 82, 102, 131, 137, 138, 135, 70, 98, 108, 103, 114, 101, 104, 128, 134, 116, 104, 94, 132, 138, 125, 127, 106, 99, 131",
+          "Bad, Medium, Good, Good, Good, Good, Bad, Medium, Good, Bad, Bad, Medium, Bad, Bad, Bad, Medium, Medium, Medium, Medium, Good, Medium, Good, Bad, Good, Medium, Good, Bad, Medium, Medium, Medium",
+          "38, 76, 52, 46, 62, 54, 58, 44, 64, 38, 44, 48, 69, 75, 74, 80, 61, 32, 55, 60, 25, 31, 56, 73, 51, 62, 33, 65, 62, 63",
+          "13, 17, 18, 17, 18, 11, 17, 18, 10, 10, 12, 15, 18, 16, 16, 13, 13, 16, 13, 13, 15, 11, 11, 16, 12, 12, 12, 13, 11, 13",
+          "Yes, No, Yes, No, No, No, Yes, Yes, No, No, Yes, No, Yes, Yes, Yes, Yes, Yes, No, No, Yes, Yes, No, Yes, No, Yes, Yes, Yes, Yes, Yes, Yes",
+          "No, Yes, Yes, Yes, Yes, No, Yes, Yes, Yes, No, Yes, Yes, No, No, Yes, No, Yes, Yes, No, Yes, No, Yes, Yes, Yes, No, Yes, Yes, Yes, Yes, Yes",
+          "No, No, Yes, Yes, Yes, Yes, No, Yes, No, No, No, Yes, No, No, No, No, Yes, No, No, Yes, No, Yes, No, Yes, No, No, No, Yes, No, No"
+        ],
+        "columns" : [
+          "Column 0",
+          "Sales",
+          "CompPrice",
+          "Income",
+          "Advertising",
+          "Population",
+          "Price",
+          "ShelveLoc",
+          "Age",
+          "Education",
+          "Urban",
+          "US",
+          "High"
+        ],
+        "createdDate" : "2026-03-12T14:59:46Z",
+        "dataAnalysis" : {
+          "classifierAnalysis" : {
+
+          },
+          "issues" : [
+            {
+              "description" : "Data has 100 rows",
+              "severity" : "info"
+            }
+          ],
+          "objectDetectorAnalysis" : {
+            "details" : {
+
+            }
+          },
+          "summary" : {
+            "canUseValidation" : 1,
+            "classCount" : 2,
+            "sampleCount" : 100
+          }
+        },
+        "dataSourceID" : "1BAB914D-E3F6-4CE6-9626-10CA9D09338A",
+        "dataURL" : "file:///Users/rob/Projects/R/ISLR2/data/Carseats_test.csv",
+        "itemsCount" : 100
+      },
+      "dataSourceID" : "1BAB914D-E3F6-4CE6-9626-10CA9D09338A",
+      "evaluationResult" : {
+        "generalClassifier" : {
+          "accuracy" : 0.949999988079071,
+          "statsByLabel" : {
+            "No" : {
+              "count" : 63,
+              "precisionRecall" : {
+                "success" : {
+                  "precision" : 0.953125,
+                  "recall" : 0.9682539701461792
+                }
+              }
+            },
+            "Yes" : {
+              "count" : 37,
+              "precisionRecall" : {
+                "success" : {
+                  "precision" : 0.9444444179534912,
+                  "recall" : 0.9189189076423645
+                }
+              }
+            }
+          }
+        }
+      },
+      "finishTime" : "2026-03-12T15:00:47Z",
+      "id" : "92e7cea6-43bf-4a75-a498-68a63e5ea360",
+      "startTime" : "2026-03-12T15:00:47Z"
+    },
+    "trainingEvaluationEntity" : {
+      "analysedDataType" : "none",
+      "createdDate" : "2026-03-12T14:59:35Z",
+      "dataResult" : {
+        "classesCount" : 2,
+        "createdDate" : "2026-03-12T14:59:46Z",
+        "dataAnalysis" : {
+          "classifierAnalysis" : {
+
+          },
+          "issues" : [
+            {
+              "description" : "Data has 300 rows",
+              "severity" : "info"
+            }
+          ],
+          "objectDetectorAnalysis" : {
+            "details" : {
+
+            }
+          },
+          "summary" : {
+            "canUseValidation" : 1,
+            "classCount" : 2,
+            "sampleCount" : 300
+          }
+        },
+        "dataSourceID" : "28E20484-F9A1-4539-9610-1111ADD40571",
+        "dataURL" : "file:///Users/rob/Projects/R/ISLR2/data/Carseats_train.csv",
+        "itemsCount" : 300
+      },
+      "dataSourceID" : "28E20484-F9A1-4539-9610-1111ADD40571",
+      "evaluationResult" : {
+        "generalClassifier" : {
+          "accuracy" : 0.8962962962962963,
+          "confusionMatrix" : [
+            {
+              "actual" : "No",
+              "count" : 145,
+              "expected" : "No"
+            },
+            {
+              "actual" : "No",
+              "count" : 13,
+              "expected" : "Yes"
+            },
+            {
+              "actual" : "Yes",
+              "count" : 15,
+              "expected" : "No"
+            },
+            {
+              "actual" : "Yes",
+              "count" : 97,
+              "expected" : "Yes"
+            }
+          ],
+          "statsByLabel" : {
+            "No" : {
+              "count" : 158,
+              "precisionRecall" : {
+                "success" : {
+                  "precision" : 0.90625,
+                  "recall" : 0.9177215189873418
+                }
+              }
+            },
+            "Yes" : {
+              "count" : 112,
+              "precisionRecall" : {
+                "success" : {
+                  "precision" : 0.8818181818181818,
+                  "recall" : 0.8660714285714286
+                }
+              }
+            }
+          }
+        }
+      },
+      "id" : "3f6bf284-4afe-44dd-9287-b10c8057e8db"
+    },
+    "validationEvaluationEntity" : {
+      "analysedDataType" : "auto",
+      "createdDate" : "2026-03-12T14:59:35Z",
+      "dataResult" : {
+        "createdDate" : "2026-03-12T14:59:46Z"
+      },
+      "evaluationResult" : {
+        "generalClassifier" : {
+          "accuracy" : 0.9,
+          "confusionMatrix" : [
+            {
+              "actual" : "No",
+              "count" : 15,
+              "expected" : "No"
+            },
+            {
+              "actual" : "Yes",
+              "count" : 3,
+              "expected" : "No"
+            },
+            {
+              "actual" : "Yes",
+              "count" : 12,
+              "expected" : "Yes"
+            }
+          ],
+          "statsByLabel" : {
+            "No" : {
+              "count" : 15,
+              "precisionRecall" : {
+                "success" : {
+                  "precision" : 0.8333333333333334,
+                  "recall" : 1
+                }
+              }
+            },
+            "Yes" : {
+              "count" : 15,
+              "precisionRecall" : {
+                "success" : {
+                  "precision" : 1,
+                  "recall" : 0.8
+                }
+              }
+            }
+          }
+        }
+      },
+      "id" : "6f47baf7-2b24-44ad-8ba0-de9893a96a58"
+    }
+  },
+  "evaluationEntity" : {
+    "analysedDataType" : "none",
+    "dataResult" : {
+
+    },
+    "id" : "c84024ee-7e35-49e3-9a99-d29b978465e9"
+  },
+  "evaluationState" : "evaluated",
+  "id" : "6F42919A-A363-4750-893E-8D3727C0086D",
+  "modelEntity" : {
+    "createdDate" : "2026-03-12T14:59:35Z",
+    "experimentID" : "6F42919A-A363-4750-893E-8D3727C0086D",
+    "id" : "EA3ACCA0-48DC-40BA-9204-14B30FD46875",
+    "modelURL" : "Models/CarseatsClassifier%201.mlmodel",
+    "modifiedDate" : "2026-03-12T14:59:35Z",
+    "title" : "",
+    "version" : "1.0"
+  },
+  "modifiedDate" : "2026-03-12T15:00:47Z",
+  "preferredFilename" : "CarseatsClassifier 1",
+  "settingEntity" : {
+    "algorithmType" : "maxEnt",
+    "augmentations" : [
+
+    ],
+    "featureNames" : [
+      "CompPrice",
+      "Income",
+      "Advertising",
+      "Population",
+      "Price",
+      "ShelveLoc",
+      "Age",
+      "Education"
+    ],
+    "generalClassifierType" : {
+      "logisticRegressionClassifier" : {
+        "convergenceThreshold" : 0.01,
+        "featureRescaling" : true,
+        "l1Penalty" : 0,
+        "l2Penalty" : 0.01,
+        "stepSize" : 1
+      }
+    },
+    "handActionClassifierAugmentations" : [
+
+    ],
+    "handPoseClassifierAugmentations" : [
+
+    ],
+    "harVideoAugmentations" : 0,
+    "seedType" : "default",
+    "styleTransferAlgorithmType" : "image",
+    "suggestedColumnTypes" : [
+      "Int",
+      "Double",
+      "Int",
+      "Int",
+      "Int",
+      "Int",
+      "Int",
+      "String",
+      "Int",
+      "Int",
+      "String",
+      "String",
+      "String"
+    ],
+    "suggestedColumnValues" : [
+      "341, 198, 262, 392, 273, 349, 204, 381, 297, 178, 75, 131, 306, 371, 311, 63, 136, 231, 289, 54, 361, 112, 171, 38, 380, 110, 144, 45, 238, 208",
+      "7.50, 2.52, 5.71, 6.10, 12.98, 12.57, 2.05, 9.64, 8.21, 10.48, 6.20, 8.41, 8.03, 7.68, 9.53, 1.82, 6.44, 5.16, 6.98, 6.92, 8.77, 6.62, 8.01, 4.95, 5.81, 8.98, 0.53, 4.16, 9.62, 8.19",
+      "140, 124, 121, 153, 113, 132, 131, 106, 127, 138, 150, 94, 115, 126, 175, 139, 96, 115, 116, 109, 118, 132, 128, 121, 125, 115, 122, 85, 151, 111",
+      "29, 61, 42, 63, 33, 102, 82, 64, 44, 72, 68, 84, 29, 41, 65, 45, 94, 60, 40, 64, 86, 118, 39, 41, 111, 65, 88, 79, 28, 105",
+      "0, 0, 4, 0, 0, 20, 0, 10, 13, 0, 5, 13, 26, 22, 29, 0, 14, 0, 0, 13, 7, 12, 12, 5, 0, 0, 7, 6, 8, 0",
+      "105, 333, 188, 49, 14, 459, 132, 17, 160, 148, 125, 497, 394, 403, 419, 146, 384, 119, 74, 39, 265, 272, 356, 412, 404, 217, 36, 325, 499, 466",
+      "91, 138, 118, 124, 63, 107, 157, 89, 123, 94, 136, 77, 132, 119, 166, 133, 120, 114, 97, 119, 114, 151, 118, 110, 107, 90, 159, 95, 135, 97",
+      "Bad, Medium, Medium, Bad, Good, Good, Bad, Medium, Good, Medium, Medium, Medium, Medium, Bad, Medium, Bad, Medium, Bad, Medium, Medium, Good, Medium, Medium, Medium, Bad, Medium, Bad, Medium, Medium, Bad",
+      "43, 76, 54, 56, 38, 49, 25, 68, 63, 27, 64, 51, 33, 42, 53, 77, 36, 38, 76, 61, 52, 43, 71, 54, 54, 60, 28, 69, 48, 61",
+      "16, 16, 15, 16, 12, 11, 14, 17, 18, 17, 13, 12, 13, 12, 12, 17, 18, 14, 15, 17, 15, 14, 10, 10, 15, 17, 17, 13, 10, 10",
+      "Yes, Yes, Yes, Yes, Yes, Yes, Yes, Yes, Yes, Yes, No, Yes, Yes, Yes, Yes, Yes, No, No, No, Yes, No, Yes, Yes, Yes, Yes, No, Yes, Yes, Yes, No",
+      "No, No, Yes, No, No, Yes, No, Yes, Yes, Yes, Yes, Yes, Yes, Yes, Yes, Yes, Yes, No, No, Yes, Yes, Yes, Yes, Yes, No, No, Yes, Yes, Yes, No",
+      "No, No, No, No, Yes, Yes, No, Yes, Yes, Yes, No, Yes, Yes, No, Yes, No, No, No, No, No, Yes, No, Yes, No, No, Yes, No, No, Yes, Yes"
+    ],
+    "suggestedColumns" : [
+      "Column 0",
+      "Sales",
+      "CompPrice",
+      "Income",
+      "Advertising",
+      "Population",
+      "Price",
+      "ShelveLoc",
+      "Age",
+      "Education",
+      "Urban",
+      "US",
+      "High"
+    ],
+    "targetColumn" : "High",
+    "taskType" : "generalClassifier",
+    "transferLearningEmbeddingType" : "dynamic"
+  },
+  "snapshotRole" : {
+    "withoutSnapshots" : 0
+  },
+  "state" : "trained",
+  "title" : "CarseatsClassifier 1",
+  "trainingEntity" : {
+    "analysedDataType" : "datasource",
+    "checkpointMetrics" : {
+
+    },
+    "dataResult" : {
+      "classesCount" : 2,
+      "columnTypes" : [
+        "Int",
+        "Double",
+        "Int",
+        "Int",
+        "Int",
+        "Int",
+        "Int",
+        "String",
+        "Int",
+        "Int",
+        "String",
+        "String",
+        "String"
+      ],
+      "columnValues" : [
+        "341, 198, 262, 392, 273, 349, 204, 381, 297, 178, 75, 131, 306, 371, 311, 63, 136, 231, 289, 54, 361, 112, 171, 38, 380, 110, 144, 45, 238, 208",
+        "7.50, 2.52, 5.71, 6.10, 12.98, 12.57, 2.05, 9.64, 8.21, 10.48, 6.20, 8.41, 8.03, 7.68, 9.53, 1.82, 6.44, 5.16, 6.98, 6.92, 8.77, 6.62, 8.01, 4.95, 5.81, 8.98, 0.53, 4.16, 9.62, 8.19",
+        "140, 124, 121, 153, 113, 132, 131, 106, 127, 138, 150, 94, 115, 126, 175, 139, 96, 115, 116, 109, 118, 132, 128, 121, 125, 115, 122, 85, 151, 111",
+        "29, 61, 42, 63, 33, 102, 82, 64, 44, 72, 68, 84, 29, 41, 65, 45, 94, 60, 40, 64, 86, 118, 39, 41, 111, 65, 88, 79, 28, 105",
+        "0, 0, 4, 0, 0, 20, 0, 10, 13, 0, 5, 13, 26, 22, 29, 0, 14, 0, 0, 13, 7, 12, 12, 5, 0, 0, 7, 6, 8, 0",
+        "105, 333, 188, 49, 14, 459, 132, 17, 160, 148, 125, 497, 394, 403, 419, 146, 384, 119, 74, 39, 265, 272, 356, 412, 404, 217, 36, 325, 499, 466",
+        "91, 138, 118, 124, 63, 107, 157, 89, 123, 94, 136, 77, 132, 119, 166, 133, 120, 114, 97, 119, 114, 151, 118, 110, 107, 90, 159, 95, 135, 97",
+        "Bad, Medium, Medium, Bad, Good, Good, Bad, Medium, Good, Medium, Medium, Medium, Medium, Bad, Medium, Bad, Medium, Bad, Medium, Medium, Good, Medium, Medium, Medium, Bad, Medium, Bad, Medium, Medium, Bad",
+        "43, 76, 54, 56, 38, 49, 25, 68, 63, 27, 64, 51, 33, 42, 53, 77, 36, 38, 76, 61, 52, 43, 71, 54, 54, 60, 28, 69, 48, 61",
+        "16, 16, 15, 16, 12, 11, 14, 17, 18, 17, 13, 12, 13, 12, 12, 17, 18, 14, 15, 17, 15, 14, 10, 10, 15, 17, 17, 13, 10, 10",
+        "Yes, Yes, Yes, Yes, Yes, Yes, Yes, Yes, Yes, Yes, No, Yes, Yes, Yes, Yes, Yes, No, No, No, Yes, No, Yes, Yes, Yes, Yes, No, Yes, Yes, Yes, No",
+        "No, No, Yes, No, No, Yes, No, Yes, Yes, Yes, Yes, Yes, Yes, Yes, Yes, Yes, Yes, No, No, Yes, Yes, Yes, Yes, Yes, No, No, Yes, Yes, Yes, No",
+        "No, No, No, No, Yes, Yes, No, Yes, Yes, Yes, No, Yes, Yes, No, Yes, No, No, No, No, No, Yes, No, Yes, No, No, Yes, No, No, Yes, Yes"
+      ],
+      "columns" : [
+        "Column 0",
+        "Sales",
+        "CompPrice",
+        "Income",
+        "Advertising",
+        "Population",
+        "Price",
+        "ShelveLoc",
+        "Age",
+        "Education",
+        "Urban",
+        "US",
+        "High"
+      ],
+      "createdDate" : "2026-03-12T14:59:46Z",
+      "dataAnalysis" : {
+        "classifierAnalysis" : {
+
+        },
+        "issues" : [
+          {
+            "description" : "Data has 300 rows",
+            "severity" : "info"
+          }
+        ],
+        "objectDetectorAnalysis" : {
+          "details" : {
+
+          }
+        },
+        "summary" : {
+          "canUseValidation" : 1,
+          "classCount" : 2,
+          "sampleCount" : 300
+        }
+      },
+      "dataSourceID" : "28E20484-F9A1-4539-9610-1111ADD40571",
+      "dataURL" : "file:///Users/rob/Projects/R/ISLR2/data/Carseats_train.csv",
+      "itemsCount" : 300
+    },
+    "dataSourceID" : "28E20484-F9A1-4539-9610-1111ADD40571",
+    "featureExtractionCheckpointMayBeAvailable" : false,
+    "finishTime" : "2026-03-12T15:00:45Z",
+    "progress" : [
+
+    ],
+    "snapshottableCheckpoints" : {
+
+    },
+    "startTime" : "2026-03-12T15:00:44Z",
+    "trainingAccuracy" : 0.8962962962962963,
+    "trainingResults" : {
+      "generalClassifier" : {
+        "accuracy" : 0.8962962962962963,
+        "confusionMatrix" : [
+          {
+            "actual" : "No",
+            "count" : 145,
+            "expected" : "No"
+          },
+          {
+            "actual" : "No",
+            "count" : 13,
+            "expected" : "Yes"
+          },
+          {
+            "actual" : "Yes",
+            "count" : 15,
+            "expected" : "No"
+          },
+          {
+            "actual" : "Yes",
+            "count" : 97,
+            "expected" : "Yes"
+          }
+        ],
+        "statsByLabel" : {
+          "No" : {
+            "count" : 158,
+            "precisionRecall" : {
+              "success" : {
+                "precision" : 0.90625,
+                "recall" : 0.9177215189873418
+              }
+            }
+          },
+          "Yes" : {
+            "count" : 112,
+            "precisionRecall" : {
+              "success" : {
+                "precision" : 0.8818181818181818,
+                "recall" : 0.8660714285714286
+              }
+            }
+          }
+        }
+      }
+    },
+    "validationAccuracy" : 0.9,
+    "validationResults" : {
+      "generalClassifier" : {
+        "accuracy" : 0.9,
+        "confusionMatrix" : [
+          {
+            "actual" : "No",
+            "count" : 15,
+            "expected" : "No"
+          },
+          {
+            "actual" : "Yes",
+            "count" : 3,
+            "expected" : "No"
+          },
+          {
+            "actual" : "Yes",
+            "count" : 12,
+            "expected" : "Yes"
+          }
+        ],
+        "statsByLabel" : {
+          "No" : {
+            "count" : 15,
+            "precisionRecall" : {
+              "success" : {
+                "precision" : 0.8333333333333334,
+                "recall" : 1
+              }
+            }
+          },
+          "Yes" : {
+            "count" : 15,
+            "precisionRecall" : {
+              "success" : {
+                "precision" : 1,
+                "recall" : 0.8
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "validationEntity" : {
+    "analysedDataType" : "auto",
+    "dataResult" : {
+      "createdDate" : "2026-03-12T14:59:46Z"
+    },
+    "splitOptions" : {
+      "strategy" : {
+        "automatic" : {
+
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

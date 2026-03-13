@@ -1,0 +1,29 @@
+{
+  "activityEntities" : [
+    "projectCreated",
+    [
+      {
+        "createdDate" : "2026-03-12T14:59:34Z",
+        "event" : "projectCreated",
+        "id" : "E8EC5501-873E-4093-AC06-BAFC1B949425",
+        "subtitle" : "CarseatsClassifier",
+        "title" : "Project Created"
+      }
+    ]
+  ],
+  "authorName" : "Robert Goedman",
+  "createdDate" : "2026-03-12T14:59:34Z",
+  "description" : "",
+  "id" : "10A1513E-1660-462A-A5C7-0A7CF3DCD8CB",
+  "license" : "",
+  "location" : "",
+  "modifiedDate" : "2026-03-12T14:59:34Z",
+  "projectName" : "CarseatsClassifier",
+  "settingsEntity" : {
+    "snapshotOnExtendTraining" : true,
+    "snapshotOnResumeTraining" : false
+  },
+  "taskType" : "generalClassifier",
+  "title" : "Tabular Classification",
+  "version" : "1.1"
+}
