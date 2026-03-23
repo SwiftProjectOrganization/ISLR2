@@ -10,7 +10,8 @@ installISLR2Libraries = function() {
     install.packages("glmnet")
     install.packages("randonForest")
     install.packages("tree")
-}
+    install.packages("remotes")
+    remotes::install_github("gbm-developers/gbm3", build_vignettes = TRUE, force = TRUE)}
 
 loadISLR2Libraries = function() {
     library(MASS)
@@ -25,6 +26,7 @@ loadISLR2Libraries = function() {
     library(glmnet)
     library(randomForest)
     library(tree)
+    library(gbm3)
 }
 
 installSRLibraries = function() {

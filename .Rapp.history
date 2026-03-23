@@ -1,3 +1,7 @@
+lm01
+summary(lm01)
+coef(lm01)
+coef(lm01)[1]
 names(lm01)
 lm02 = lm(medv ~ 1 + lstat)
 lm02
@@ -197,117 +201,169 @@ install.packages("IRdisplay")
 library(IRkernel)
 IRkernel::installspec()
 IRkernel::installspec(name = 'ir45', displayname = 'R 4.5')
-library(keros)
-library(keras)
-library(keras3)
-source("/Users/rob/Projects/R/ISLR2/R_Examples/Medium_Neural_R/Neural.R")
-source("/Users/rob/Projects/R/ISLR2/R_Examples/Medium_Neural_R/Neural.R")
-source("/Users/rob/Projects/R/ISLR2/R_Examples/Medium_Neural_R/Neural.R")
-source("/Users/rob/Projects/R/ISLR2/R_Examples/Medium_Neural_R/Neural.R")
-source("/Users/rob/Projects/R/ISLR2/R_Examples/Medium_Neural_R/Neural.R")
-reticulate::py_last_error()
-x <- scale( model.matrix (Salary∼ . - 1, data = Gitters))
-Salary
-source("/Users/rob/Projects/R/ISLR2/InstallAndLoadScripts/loadlibraries.R")
-loadISLR2Libraries()
-x <- scale( model.matrix (Salary∼ . - 1, data = Gitters))
-Gitters <- na.omit(Hitters)
-n <- nrow(Gitters)
-set.seed (13)
-ntest <- trunc(n / 3)
-testid <- sample (1:n, ntest)
-lfit <- lm(Salary∼ ., data = Gitters[-testid , ])
-lfit <- lm(Salary ∼ ., data = Gitters[-testid , ])
-Salary
-as_tibble(Gitters)
-attach(Gitters)
-lfit <- lm(Salary ∼ ., data = Gitters[-testid , ])
-lfit = lm(Salary ∼ ., data = Gitters[-testid, ])
-lfit = lm(Salary ∼ ., data = Gitters)
-lfit = lm(Salary ~ ., data = Gitters[-testid, ])
-summary(lfit)
-lpred <- predict(lfit , Gitters[testid , ])
-with(Gitters[testid , ], mean(abs(lpred - Salary)))
-x <- scale( model.matrix (Salary ~ . - 1, data = Gitters))
-y <- Gitters$Salary
-library(glmnet)
-library(glmnet)
-library(glmnet)
-cvfit <- cv.glmnet(x[-testid , ], y[-testid],#
-type.measure = "mae")
-cpred <- predict(cvfit , x[testid , ], s = "lambda.min")
-mean(abs(y[testid] - cpred))
-modnn <- keras#
-_#
-model#
-_ sequential () %>%#
-+ layer_#
-dense(units = 50, activation = "relu"#
-,#
-input_shape = ncol(x)) %>%#
-+ layer_dropout(rate = 0.4) %>%#
-+ layer_#
-dense(units = 1)
-modnn <- keras#
-_#
-model#
-_ sequential () %>%
-modnn = keras_model_sequential() %>%
-layer_dense(units=50, activation="relu",)
-modnn = keras_model_sequential() %>%
-layer_dense(units=50, activation="relu",
-input_shape=ncol(x)) %>%
-layer_dropout(rate=0.4) %>%
-layer_dense(units=1)
-x <- model.matrix (Salary ~ . - 1, data = Gitters) %>% scale ()
-modnn %>% compile(loss = "mse"#
-,#
-optimizer = optimizer _rmsprop (),#
-metrics = list("mean_absolute_error")
-modnn %>% compile(loss = "mse"#
-,#
-optimizer = optimizer_rmsprop (),#
-metrics = list("mean_absolute_error")
-)
-history <- modnn %>% fit(#
-x[-testid , ], y[-testid], epochs = 1500 , batch_size = 32,#
-validation _data = list(x[testid , ], y[testid ])#
-)
-history <- modnn %>% fit(#
-x[-testid , ], y[-testid], epochs = 1500 , batch_size = 32,#
-validation_data = list(x[testid , ], y[testid ])#
-)
-plot(history)
+source("/Users/rob/Projects/R/ISLR2/Labs/Lab08.r")
+install.packages("remotes")
+remotes::install_github("gbm-developers/gbm3", build_vignettes = TRUE, force = TRUE)
+?gbm3
+vignette(gbm3)
+library(gbm3)
+vignette(gbm3)
+?gbm3
+vignette()
+vignette(gbm)
+vignette("gbm")
+vignette("gbm3")
+vignette("getting-started-with-gbm")
+A default fit to gaussian data#
+# Create data#
+N <- 1000#
+X1 <- runif(N)#
+X2 <- 2*runif(N)#
+X3 <- factor(sample(letters[1:4],N,replace=T))#
+X4 <- ordered(sample(letters[1:6],N,replace=T))#
+X5 <- factor(sample(letters[1:3],N,replace=T))#
+X6 <- 3*runif(N)#
+mu <- c(-1,0,1,2)[as.numeric(X3)]#
+#
+SNR <- 10 # signal-to-noise ratio#
+Y <- X1**1.5 + 2 * (X2**.5) + mu#
+sigma <- sqrt(var(Y)/SNR)#
+Y <- Y + rnorm(N,0,sigma)#
+#
+# create a bunch of missing values#
+X1[sample(1:N,size=100)] <- NA#
+X3[sample(1:N,size=300)] <- NA#
+#
+# Gaussian data#
+gauss_data <- data.frame(Y=Y,X1=X1,X2=X2,X3=X3,X4=X4,X5=X5,X6=X6)#
+#
+# Perform a cross-validated fit#
+gauss_fit <- gbmt(Y ~ X1 + X2 + X3 + X4 + X5 + X6, #
+                  data=gauss_data, cv_folds =5, keep_gbm_data = TRUE)
+summary(gauss_fiy)
+summary(gauss_fit)
+summary(gauss_fit)
+plot(x=X1, y=Y)
+plot(x=X2, y=Y)
+boost.boston = gbmt(medv ~ ., data = Boston[train,],#
+    distribution = "gaussian", n.trees = 5000,#
+    interaction.depth = 4)#
+summary(boost.boston)
+vignette()
+vignette("gbm")
+?abline
+abline(a=8, b=3/2)
+plot()
+plot(abline(a=8, b=2/3))
+?abline
+plot(c(-2,3), c(-1,5), type = "n", xlab = "x", ylab = "y", asp = 1)#
+## the x- and y-axis, and an integer grid#
+abline(h = 0, v = 0, col = "gray60")#
+text(1,0, "abline( h = 0 )", col = "gray60", adj = c(0, -.1))#
+abline(h = -1:5, v = -2:3, col = "lightgray", lty = 3)#
+abline(a = 1, b = 2, col = 2)#
+text(1,3, "abline( 1, 2 )", col = 2, adj = c(-.1, -.1))
+abline(a=8, b=2/3, col=3)
+abline(a=0, b=2/3, col=3)
+abline(a=8/3, b=2/3, col=3)
+abline(a=-1, b=1, col=4)
+plot(c(-2,5), c(-3,5), type = "n", xlab = "x", ylab = "y", asp = 1)#
+## the x- and y-axis, and an integer grid#
+abline(h = 0, v = 0, col = "gray60")#
+text(4, 0, "abline( h = 0 )", col = "gray60", adj = c(0, -.1))#
+abline(h = -2:5, v = -3:5, col = "lightgray", lty = 3)#
+abline(a = 4, b = -3/2, col = 2)#
+text(0.6, 3, "abline( 4, -3/2 )", col = 2, adj = c(-.1, -.1))#
+abline(a = 0, b = -3/2, col = 2, lty = 3)#
+text(-2, 3, "abline( 0, -3/2 )", col = 2, adj = c(-.1, -.1))#
+abline(a = -1, b = 1, col=4)#
+text(4, 3, "abline( -1, 1 )", col = 4, adj = c(-.1, -.1))
+plot(c(-2,5), c(-3,5), type = "n", xlab = "x", ylab = "y", asp = 1)#
+## the x- and y-axis, and an integer grid#
+abline(h = 0, v = 0, col = "gray60")#
+text(4, 0, "abline( h = 0 )", col = "gray60", adj = c(0, -.1))#
+abline(h = -2:5, v = -3:5, col = "lightgray", lty = 3)#
+abline(a = 4, b = -3/2, col = 2)#
+text(0.6, 3, "abline( 4, -3/2 )", col = 2, adj = c(-.1, -.1))#
+abline(a = 0, b = -3/2, col = 2, lty = 3)#
+text(-2.1, 3, "abline( 0, -3/2 )", col = 2, adj = c(-.1, -.1))#
+abline(a = -1, b = 1, col=4)#
+text(4, 3, "abline( -1, 1 )", col = 4, adj = c(-.1, -.1))
+point(2,1)
+plot(2, 1, pch = 19)
 clear
-source("/Users/rob/Projects/R/ISLR2/R_Examples/lab 10 - Neural networks")
-plot(history)
-source("/Users/rob/Projects/R/ISLR2/Notebooks/GreenhousesTraining.ipynb")
-source("/Users/rob/Projects/R/ISLR2/Notebooks/GreenhousesTraining.ipynb")
-seq(1, 10, 10)
-?seq
-seq(from=1, to=10, by=0.2)
-source("/Users/rob/Projects/R/ISLR2/Notebooks/GreenhousesValidation.r")
-source("/Users/rob/Projects/R/ISLR2/Notebooks/GreenhousesValidation.r")
-source("/Users/rob/Projects/R/ISLR2/R_ggplot/TestGeomLine.R")
-print(f5)
-source("/Users/rob/Projects/R/ISLR2/R_ggplot/ggplot.R")
-as_tibble(Default)
-source("/Users/rob/Projects/R/ISLR2/R_ggplot/ggplot.R")
-source("/Users/rob/Projects/R/ISLR2/R_ggplot/ggplot.R")
-source("/Users/rob/Projects/R/ISLR2/Labs/Lab01.ipynb")
-source("/Users/rob/Projects/R/ISLR2/R/Labs/Lab04.r")
-install.packages("ClusterR")
-library(ClusterR)
-help(ClusterR)
-?ClusterR
-??ClusterR
-data(dietary_survey_IBS)#
-#
-dat = dietary_survey_IBS[, -ncol(dietary_survey_IBS)]#
-#
-dat = center_scale(dat)#
-#
-km = KMeans_rcpp(dat, clusters = 2, num_init = 5, max_iters = 100, initializer = 'kmeans++')#
-#
-pr = predict_KMeans(dat, km$centroids, threads = 1)
-print(pr)
+clr
+plot(c(-2,5), c(-3,5), type = "n", xlab = "x", ylab = "y", asp = 1)#
+## the x- and y-axis, and an integer grid#
+abline(h = 0, v = 0, col = "gray60")#
+text(4, 0.1, "abline( h = 0 )", col = "gray60", adj = c(0, -.2))#
+abline(h = -2:5, v = -3:5, col = "lightgray", lty = 3)#
+abline(a = 4, b = -3/2, col = "darkred")#
+text(0.6, 3, "abline( 4, -3/2 )", col = "darkred", adj = c(-.1, -.1))#
+abline(a = 0, b = -3/2, col = 2, lty = 3)#
+text(-2.1, 3, "abline( 0, -3/2 )", col = 2, adj = c(-.1, -.1))#
+abline(a = -1, b = 1, col= "darkblue")#
+text(4, 3, "abline( -1, 1 )", col = "darkblue", adj = c(-.1, -.1))#
+points(c(2), c(1), pch = 19, col=4, cex=5)#
+text(2.2, 1, "(2, 1)", col=4, adj=c(-.1, -.1))
+plot(c(-2,5), c(-3,5), type = "n", xlab = "x", ylab = "y", asp = 1)#
+## the x- and y-axis, and an integer grid#
+abline(h = 0, v = 0, col = "gray60")#
+text(4, 0.1, "abline( h = 0 )", col = "gray60", adj = c(0, -.2))#
+abline(h = -2:5, v = -3:5, col = "lightgray", lty = 3)#
+abline(a = 4, b = -3/2, col = "darkred")#
+text(0.6, 3, "abline( 4, -3/2 )", col = "darkred", adj = c(-.1, -.1))#
+abline(a = 0, b = -3/2, col = 2, lty = 3)#
+text(-2.1, 3, "abline( 0, -3/2 )", col = 2, adj = c(-.1, -.1))#
+abline(a = -1, b = 1, col= "darkblue")#
+text(4, 3, "abline( -1, 1 )", col = "darkblue", adj = c(-.1, -.1))#
+points(c(2), c(1), pch = 19, col=4, cex=3)#
+text(2.2, 1, "(2, 1)", col=4, adj=c(-.1, -.1))
+plot(c(-2,5), c(-3,5), type = "n", xlab = "x", ylab = "y", asp = 1)#
+## the x- and y-axis, and an integer grid#
+abline(h = 0, v = 0, col = "gray60")#
+text(4, 0.1, "abline( h = 0 )", col = "gray60", adj = c(0, -.2))#
+abline(h = -2:5, v = -3:5, col = "lightgray", lty = 3)#
+abline(a = 4, b = -3/2, col = "darkred")#
+text(0.6, 3, "abline( 4, -3/2 )", col = "darkred", adj = c(-.1, -.1))#
+abline(a = 0, b = -3/2, col = 2, lty = 3)#
+text(-2.1, 3, "abline( 0, -3/2 )", col = 2, adj = c(-.1, -.1))#
+abline(a = -1, b = 1, col= "darkblue")#
+text(4, 3, "abline( -1, 1 )", col = "darkblue", adj = c(-.1, -.1))#
+points(c(2), c(1), pch = 19, col="darkblue", cex=3)#
+text(2.2, 1, "(2, 1)", col=4, adj=c(-.1, -.1))
+?solve
+a=matric(c(2, 3, 1 -1))
+a=matrix(c(2, 3, 1 -1))
+a
+a=matrix(c(2, 3, 1 -1), nrow=2)
+a=matrix(c(2, 3, 1 -1), nrow=2, ncol=2)
+a=matrix(c(2, 3, 1 -1), nrows=2, ncols=2)
+a=matrix(c(2, 3, 1 -1))
+?matrix
+a=matrix(c(2, 3, 1 -1), nrows=2, ncols=2, byrow=T)
+a=matrix(c(2, 3, 1 -1), nrow=2, ncol=2, byrow=T)
+a=matrix(c(2, 3, 1, -1), nrow=2, ncol=2, byrow=T)
+a
+b=c(8,1)
+solve(a, b)
+a=matrix(c(2, 3, -1, 1), nrow=2, ncol=2, byrow=T)
+solve(a, b)
+a
+a * c(2,1)
+a . c(2,1)
+dot(a, c(2,1))
+a %*% c(2,1)
+a %*% c(1,2)
+b = matrx(c(2, 1), nrow=2, byrow=T)
+b = matrix(c(2, 1), nrow=2, byrow=T)
+b
+a %*% b
+a=matrix(c(3, 2, 1, -1), nrow=2, ncol=2, byrow=T)
+a
+a %*% b
+a[1,]
+b %*% b
+c(2, 1) %*% b
+c(2, 1) %*% a
+a %*% a
