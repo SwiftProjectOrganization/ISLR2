@@ -1,0 +1,92 @@
+{
+	"folders":
+	[
+		{
+			"path": ".",
+		},
+		{
+			"path": "/Users/rob/Projects/StanSupport",
+		},
+		{
+			"path": "/Users/rob/.julia/dev/StanSample",
+		},
+		{
+			"path": "/Users/rob/.julia/dev/ROSStanPluto",
+		},
+		{
+			"path": "/Users/rob/.julia/dev/ROSTuringPluto",
+		},
+		{
+			"path": "/Users/rob/.julia/dev/SR2StanPluto",
+		},
+		{
+			"path": "/Users/rob/.julia/dev/SR2TuringPluto",
+		},
+		{
+			"path": "/Users/rob/.julia/dev/StanExampleNotebooks",
+		},
+		{
+			"path": "/Users/rob/.julia/dev/RegressionAndOtherStories",
+		},
+		{
+			"path": "/Users/rob/.julia/dev/StatisticalRethinking",
+		},
+		{
+			"path": "/Users/rob/.julia/dev/Stan",
+		},
+		{
+			"path": "/Users/rob/.julia/dev/StanIO",
+		},
+		{
+			"path": "/Users/rob/.julia/dev/StanBase",
+		},
+		{
+			"path": "/Users/rob/.julia/dev/StanOptimize",
+		},
+		{
+			"path": "/Users/rob/.julia/dev/StanDiagnose",
+		},
+		{
+			"path": "/Users/rob/.julia/dev/StanPathfinder",
+		},
+		{
+			"path": "/Users/rob/.julia/dev/StanVariational",
+		},
+		{
+			"path": "/Users/rob/.julia/dev/StanQuap",
+		},
+		{
+			"path": "/Users/rob/.julia/dev/DiffEqBayesStan",
+		},
+		{
+			"path": "/Users/rob/.julia/dev/StructuralCausalModels",
+		},
+		{
+			"path": "/Users/rob/.julia/dev/ParetoSmoothedImportanceSampling",
+		},
+		{
+			"path": "/Users/rob/.julia/dev/CausalInference",
+		},
+		{
+			"path": "/Users/rob/.julia/dev/InferenceObjects",
+		},
+		{
+			"path": "/Users/rob/.julia/dev/Solar",
+		},
+		{
+			"path": "/Users/rob/.julia/dev/ArviZPlutoExamples",
+		},
+		{
+			"path": "/Users/rob/.julia/dev/ARM_R_chapters",
+		},
+		{
+			"path": "/Users/rob/Projects/R/rethinking-master",
+		},
+		{
+			"path": "/Users/rob/.julia/dev/Statistical_Rethinking-2023",
+		},
+		{
+			"path": "/Users/rob/.julia/dev/SR2StanPLuto_old",
+		},
+	],
+}

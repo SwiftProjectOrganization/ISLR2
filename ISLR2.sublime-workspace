@@ -1,0 +1,794 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/rob/Library/Application Support/Sublime Text 3/Packages/User/Projects/ISLR2.sublime-project",
+			"settings":
+			{
+				"buffer_size": 1831,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"Preferences: LSP-julia Settings"
+			],
+			[
+				"Pa",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"P",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"Pac",
+				"Package Control: List Packages"
+			],
+			[
+				"Ju",
+				"Build With: Julia - Source File"
+			],
+			[
+				"Inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Print",
+				"Print Entire File"
+			],
+			[
+				"send",
+				"SendCode: Choose Program"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Up",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"inde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"Jul",
+				"Build With: Julia - Source File"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"gi",
+				"Set Syntax: Git Commit"
+			],
+			[
+				"Git",
+				"Set Syntax: Git Config"
+			],
+			[
+				"Send",
+				"SendCode: Choose Program"
+			],
+			[
+				"install",
+				"Terminus: Toggle Panel"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/rob/Projects/R/ISLR2"
+	],
+	"file_history":
+	[
+		"/Users/rob/.julia/dev/Stan/Examples/WaffleDivorce/waffle_divorce.jl",
+		"/Users/rob/.julia/dev/SR2StanPLuto_old",
+		"/Users/rob/.julia/dev/InferenceObjects",
+		"/Users/rob/.julia/dev/SR2TuringPluto",
+		"/Users/rob/Projects/StanSupport/notes",
+		"/Users/rob/Projects/StanSupport/cmdstan/make/local",
+		"/Users/rob/.julia/dev/StatisticalRethinking/Project.toml",
+		"/Users/rob/.julia/dev/StatisticalRethinkingPlots/Project.toml",
+		"/Users/rob/.julia/dev/RegressionAndOtherStories/Project.toml",
+		"/Users/rob/.julia/dev/ParetoSmoothedImportanceSampling/Project.toml",
+		"/Users/rob/.julia/dev/StanDiagnose/Project.toml",
+		"/Users/rob/.julia/dev/StanOptimize/Project.toml",
+		"/Users/rob/.julia/dev/StanPathfinder/Project.toml",
+		"/Users/rob/.julia/dev/StanBase/Project.toml",
+		"/Users/rob/.julia/dev/StanBase/README.md",
+		"/Users/rob/.julia/dev/StanSample/README.md",
+		"/Users/rob/.julia/dev/StanSample/Project.toml",
+		"/Users/rob/.julia/dev/Stan/Project.toml",
+		"/Users/rob/.julia/dev/StanExampleNotebooks/notebooks/DataFrames/Nested-DataFrame.jl",
+		"/Users/rob/.julia/dev/DiffEqBayes/.github/scripts/stan.sh",
+		"/Users/rob/.julia/dev/DiffEqBayes/.github/workflows/CI.yml",
+		"/Users/rob/.julia/dev/StanPathfinder/README.md",
+		"/Users/rob/.julia/dev/StanPathfinder/.github/workflows/CI.yml",
+		"/Users/rob/.julia/dev/StanOptimize/README.md",
+		"/Users/rob/.julia/dev/StanOptimize/.github/workflows/CI.yml",
+		"/Users/rob/.julia/dev/StatisticalRethinkingBase/.github/workflows/CI.yml",
+		"/Users/rob/.julia/dev/StanRun/README.md",
+		"/Users/rob/.julia/dev/DiffEqBayesStan/.github/scripts/stan.sh",
+		"/Users/rob/.julia/dev/DiffEqBayesStan/.github/workflows/CI.yml",
+		"/Users/rob/.julia/dev/StatisticalRethinking/.github/workflows/CI.yml",
+		"/Users/rob/.julia/dev/StanBase/.github/workflows/CI.yml",
+		"/Users/rob/.julia/dev/ParetoSmoothedImportanceSampling/.github/workflows/CI.yml",
+		"/Users/rob/.julia/dev/StanModels/.github/workflows/CI.yml",
+		"/Users/rob/.julia/dev/StanDiagnose/README.md",
+		"/Users/rob/.julia/dev/StanDiagnose/.github/workflows/CI.yml",
+		"/Users/rob/.julia/dev/Stan/README.md",
+		"/Users/rob/.julia/dev/Stan/INSTALLING_CMDSTAN.md",
+		"/Users/rob/.julia/dev/Stan/.github/workflows/CI.yml",
+		"/Users/rob/.julia/dev/Stan/docs/src/INTRO.md",
+		"/Users/rob/.julia/dev/Stan/docs/src/INSTALLATION.md",
+		"/Users/rob/.julia/dev/RegressionAndOtherStories/.github/workflows/CI.yml",
+		"/Users/rob/.julia/dev/StanSample/.github/workflows/CI.yml",
+		"/Users/rob/.julia/dev/StanQuap/README.md",
+		"/Users/rob/.julia/dev/StanQuap/.github/workflows/CI.yml",
+		"/Users/rob/.julia/dev/StanVariational/README.md",
+		"/Users/rob/.julia/dev/StanVariational/.github/workflows/CI.yml",
+		"/Users/rob/.julia/dev/ROSStanPluto/README.md",
+		"/Users/rob/.julia/dev/SR2TuringPluto/README.md",
+		"/Users/rob/.julia/dev/RegressionAndOtherStories/README.md",
+		"/Users/rob/.julia/dev/StatisticalRethinking/README.md",
+		"/Users/rob/.julia/dev/ROSTuringPluto/README.md",
+		"/Users/rob/.julia/dev/SR2StanPluto/README.md",
+		"/Users/rob/Projects/StanSupport/cmdstan/make/local.example",
+		"/Users/rob/.julia/dev/DiffEqBayesStan/Project.toml",
+		"/Users/rob/.julia/dev/StanVariational/Project.toml",
+		"/Users/rob/.julia/dev/StanQuap/Project.toml",
+		"/Users/rob/.julia/dev/SR2StanPluto/notebooks/Explorations/02.2-ConjugatePriors.jl",
+		"/Users/rob/.julia/dev/SR2StanPluto/notebooks/Maintenance/Notebook-to-reset-SR2StanPluto-jl-notebooks.jl",
+		"/Users/rob/.julia/dev/ArvizPlutoExamples/README.md",
+		"/Users/rob/.julia/dev/ArvizPlutoExamples/Project.toml",
+		"/Users/rob/.julia/dev/ArvizPlutoExamples/scripts/intro.jl",
+		"/Users/rob/.julia/dev/ArvizPlutoExamples/test/runtests.jl",
+		"/Users/rob/.julia/dev/SR2TuringPluto/notebooks/Chapter_02.jl",
+		"/Users/rob/.julia/dev/StructuralCausalModels/README.md",
+		"/Users/rob/.julia/dev/StructuralCausalModels/Project.toml",
+		"/Users/rob/.julia/dev/SR2StanPluto/notebooks/CausalInference/MakieTest.jl",
+		"/Users/rob/.julia/dev/SR2StanPluto/notebooks/SR1/07/7.2-Entropy and accuracy/clip-07-16-18.1s.jl",
+		"/Users/rob/.julia/dev/SR2StanPluto/notebooks/SR1/07/7.2-Entropy and accuracy/clip-07-13-14.1s.jl",
+		"/Users/rob/.julia/dev/RegressionAndOtherStories/src/RegressionAndOtherStories.jl",
+		"/Users/rob/.julia/dev/RegressionAndOtherStories/src/General/logprob.jl",
+		"/Users/rob/.julia/dev/SR2StanPluto/notebooks/Explorations/03.4-GeneratedQuantities.jl",
+		"/Users/rob/.julia/dev/SR2StanPluto/notebooks/SR2/07.1-The problem with parameters.jl",
+		"/Users/rob/.julia/dev/SR2StanPluto/notebooks/SR2/07.1b-The problem with parameters.jl",
+		"/Users/rob/.julia/dev/SR2StanPluto/notebooks/SR2/07.2-Entropy and accuracy.jl",
+		"/Users/rob/.julia/dev/StanQuap/src/quap.jl",
+		"/Users/rob/.julia/dev/SR2StanPluto/notebooks/SR2/07.1d-The problem with parameters.jl",
+		"/Users/rob/.julia/dev/SR2StanPluto/notebooks/SR2/04.5-Curves from lines.jl",
+		"/Users/rob/.julia/dev/StanIO/src/samples/extract_reshape.jl",
+		"/Users/rob/.julia/dev/StanIO/test/test_mixed_02.jl",
+		"/Users/rob/.julia/dev/StanIO/Project.toml",
+		"/Users/rob/.julia/dev/SR2StanPluto/notebooks/SR2/03-Sampling the Imaginary.jl",
+		"/Users/rob/.julia/dev/SR2StanPluto/notebooks/SR2/04.4-Linear prediction.jl",
+		"/Users/rob/.julia/dev/SR2StanPluto/notebooks/SR2/02-Small Worlds and Large World.jl",
+		"/Users/rob/.julia/dev/SR2StanPluto/notebooks/SR2/06.2-Post-treatment bias.jl",
+		"/Users/rob/.julia/dev/SR2StanPluto/notebooks/SR2/06.1-Multicollinearity.jl",
+		"/Users/rob/.julia/dev/SR2StanPluto/notebooks/SR2/06.3-Collider bias.jl",
+		"/Users/rob/.julia/dev/SR2StanPluto/notebooks/SR2/05.1-Spurious associations.jl",
+		"/Users/rob/.julia/dev/SR2StanPluto/notebooks/SR2/00-Preface.jl",
+		"/Users/rob/.julia/dev/SR2StanPluto/notebooks/SR2/05.3-Categorical variables.jl",
+		"/Users/rob/.julia/dev/SR2StanPluto/notebooks/SR2/09.4-Easy HMC.jl",
+		"/Users/rob/.julia/dev/SR2StanPluto/notebooks/SR2/05.2-Masked relationships.jl",
+		"/Users/rob/.julia/dev/SR2StanPluto/notebooks/SR1/08/8.3-Continuous interactions.jl",
+		"/Users/rob/.julia/dev/SR2StanPluto/notebooks/SR1/08/8.2-Symmetry of interactions.jl",
+		"/Users/rob/.julia/dev/SR2StanPluto/notebooks/SR1/07/7.2-Entropy and accuracy/clip-07-12s.jl",
+		"/Users/rob/.julia/dev/SR2StanPluto/notebooks/SR1/07/7.1-The problem with parameters/clip-07-01-04s.jl",
+		"/Users/rob/.julia/dev/SR2StanPluto/notebooks/SR1/07/7.1-The problem with parameters/clip-07-07-10s.jl",
+		"/Users/rob/.julia/dev/SR2StanPluto/notebooks/SR1/07/7.1-The problem with parameters/clip-07-05-06s.jl",
+		"/Users/rob/.julia/dev/SR2StanPluto/notebooks/SR1/07/7.1-The problem with parameters/clip-07-11s.jl",
+		"/Users/rob/.julia/dev/SR2StanPluto/notebooks/SR3/Lecture_3_4.jl",
+		"/Users/rob/.julia/dev/SR2StanPluto/notebooks/SR3/Adjustment explorations.jl",
+		"/Users/rob/.julia/dev/SR2StanPluto/notebooks/SR3/GES explorations.jl",
+		"/Users/rob/.julia/dev/SR2StanPluto/notebooks/SR2/06.4-Confronting confounding.jl",
+		"/Users/rob/.julia/dev/SR2StanPluto/notebooks/SR2/04.1-Why normal distributions are normal.jl",
+		"/Users/rob/.julia/dev/SR2StanPluto/notebooks/SR2/04.3-Gaussian model of height.jl",
+		"/Users/rob/.julia/dev/SR2StanPluto/notebooks/SR2/04.2-A language for describing models.jl",
+		"/Users/rob/.julia/dev/StanIO/src/samples/read_csvfiles.jl",
+		"/Users/rob/.julia/dev/StanIO/src/StanIO.jl",
+		"/Users/rob/.julia/dev/StanIO/README.md",
+		"/Users/rob/.julia/dev/Stan/Examples/RedCardsStudy/graphs/arm_log_0.png",
+		"/Users/rob/.julia/dev/Stan/Examples/RedCardsStudy/redcardstudy.jl",
+		"/Users/rob/.julia/dev/Stan/Examples/RedCardsStudy/timings_plot.jl",
+		"/Users/rob/.julia/dev/StanPathfinder/test/test.jl",
+		"/Users/rob/.julia/dev/StanPathfinder/test/runtests.jl",
+		"/Users/rob/.julia/dev/StanPathfinder/src/stanmodel/PathfinderModel.jl",
+		"/Users/rob/.julia/dev/StanPathfinder/examples/Bernoulli/bernoulli.jl",
+		"/Users/rob/.julia/dev/StanExampleNotebooks/notebooks/Pathfinder/StanPathfinder.jl",
+		"/Users/rob/.julia/dev/StanExampleNotebooks/notebooks/Pathfinder/tmp/bernoulli_pf_log_1.log",
+		"/Users/rob/.julia/dev/StanExampleNotebooks/notebooks/Pathfinder/tmp/bernoulli_pm_log_1.log",
+		"/Users/rob/.julia/dev/StanBase/src/StanBase.jl",
+		"/Users/rob/.julia/dev/StanPathfinder/src/stanrun/stan_run.jl",
+		"/Users/rob/.julia/dev/StanPathfinder/src/stanrun/cmdline.jl",
+		"/Users/rob/.julia/dev/SR2TuringPluto/notebooks/Chapter_05_2_Masked_Relationships.jl",
+		"/Users/rob/.julia/dev/StanBase/src/common/handle_keywords.jl",
+		"/Users/rob/.julia/dev/StanPathfinder/src/StanPathfinder.jl",
+		"/Users/rob/.julia/dev/StanPathfinder/src/stansamples/read_pathfinder.jl",
+		"/Users/rob/.julia/dev/StanExampleNotebooks/notebooks/Pathfinder/StanPathfinder2.jl",
+		"/Users/rob/.julia/dev/StanExampleNotebooks/notebooks/Pathfinder/StanPathfinder0.jl",
+		"/Users/rob/.julia/dev/SR2TuringPluto/notebooks/Chapter_07_issues.jl"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 119.0,
+		"where_history":
+		[
+			"/Users/rob/.julia/dev/SR2StanPluto",
+			"/Users/rob/.julia/dev/SR@StanPluto",
+			"/Users/rob/.julia/dev/",
+			"/Users/rob/.julia/dev/ArvizPlutoExamples",
+			"/Users/rob/.julia/dev/SR2TuringPluto",
+			"/Users/rob/.julia/dev/SR2StanPluto",
+			"/Users/rob/.julia/dev/",
+			"/Users/rob/.julia/dev/SR2StanPluto",
+			"/Users/rob/.julia/dev/SR2TuringPluto",
+			"/Users/rob/.julia/dev/StatisticalRethinking",
+			"/Users/rob/.julia/dev/",
+			"/Users/rob/.julia/dev/StanPathfinder",
+			"/Users/rob/.julia/dev/",
+			"/Users/rob/.julia/dev/ROSStanPluto",
+			"/Users/rob/.julia/dev/Stan",
+			"/Users/rob/.julia/dev/StanBase",
+			"/Users/rob/.julia/dev/StanSample",
+			"/Users/rob/.julia/dev/ROSStanPluto",
+			"/Users/rob/.julia/dev/ROSStanPlutu",
+			"/Users/rob/.julia/dev/ARM R chapters",
+			"<current file>",
+			"/Users/rob/.julia/dev/ROSStanPluto/notebooks/ROS",
+			"/Users/rob/.julia/dev/StanIO",
+			"/Users/rob/.julia/dev/ΣτανΙΟ",
+			"/Users/rob/.julia/dev",
+			"/Users/rob/.julia/dev/SR2StanPluto",
+			"/Users/rob/.julia/dev/RegressionAndOtherStories",
+			"/Users/rob/.julia/dev/StatisticalRethinking",
+			"/Users/rob/.julia/dev/StructuralCausalModels",
+			"/Users/rob/.julia/dev/ParetoSmoothedImportanceSampling",
+			"/Users/rob/.julia/dev/StatisticalRethinking",
+			"/Users/rob/.julia/dev/StanIO",
+			"/Users/rob/.julia/dev/OpenAI rjg",
+			"/Users/rob/.julia/dev/Stan",
+			"/Users/rob/.julia/dev/StanSample",
+			"/Users/rob/.julia/dev/",
+			"<current file>",
+			"",
+			"/Users/rob/.julia/dev/StanSample",
+			"/Users/rob/.julia/dev/SR2StanPluto/",
+			"/Users/rob/.julia/dev/StanExampleNotebooks/",
+			"/Users/rob/.julia/dev/SR2StanPluto/",
+			"/Users/rob/.julia/dev/RegressionAndOtherStories/ext",
+			"/Users/rob/.julia/dev/SR2StanPluto/",
+			"/Users/rob/.julia/dev/RegressionAndOtherStories/ext",
+			"/Users/rob/.julia/dev/RegressionAndOtherStories/src",
+			"<current file>",
+			"/Users/rob/.julia/dev/",
+			"/Users/rob/.julia/dev/RegressionAndOtherStories",
+			"/Users/rob/.julia/dev",
+			"<current file>",
+			"/Users/rob/.julia/dev/DiffEqBayesStan",
+			"/Users/rob/.julia/dev/DiffEqBayes",
+			"/Users/rob/.julia/dev",
+			"/Users/rob/.julia/dev/RegressionAndOtherStories",
+			"/Users/rob/.julia/dev/StanSample",
+			"/Users/rob/.julia/dev/RegressionAndOtherStories",
+			"<current file>",
+			"/Users/rob/.julia/dev/CausalInference",
+			"/Users/rob/.julia/dev/SR2StanPluto",
+			"/Users/rob/.julia/dev/StanExampleNotebooks",
+			"/Users/rob/.julia/dev/RegressionAndOtherStories",
+			"<current file>,/Users/rob/.julia/dev/CausalInference",
+			"<current file>,<open folders>",
+			"<current file>",
+			"<current file>,/Users/rob/.julia/dev/SR2StanPluto",
+			"<current file>",
+			"<current file>,/Users/rob/.julia/dev/RegressionAndOtherStories",
+			"<current file>,/Users/rob/.julia/dev/SR2StanPluto/notebooks",
+			"<current file>"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"contour",
+			"nesteddataframe",
+			"2.3",
+			"2.34.1",
+			"Arviz",
+			"MAP",
+			"MAO",
+			"Formatting",
+			"2.34.0",
+			"cmdstan-2.34.0",
+			"cmdstan-2,34,0",
+			"logprob(",
+			"using ParetoSmooth",
+			"ParetoSmooth",
+			"ParetoSmoothed",
+			"meanlowerupper",
+			"md\"#",
+			"md\"### Julia",
+			"md\" ### Julia",
+			"md\"### Julia",
+			"generated q",
+			"generated",
+			"MCMCThreads(), 1000, 4",
+			"MCMCThread",
+			"PRECIS",
+			"MAP",
+			"d/2.26.1",
+			"-2.26.1",
+			"2.26",
+			"d/2.28.2",
+			"v2.28.2",
+			"2.28.2",
+			"-2.28.2",
+			"2.28.2",
+			"wget",
+			"d/v2.28.2",
+			"-2.28.2",
+			"2.28.2",
+			"2.19.1",
+			"variational",
+			"Variational",
+			"2.33.",
+			"cmdstan-2.33.",
+			"cmdstan-v2.33.",
+			"d/v2.33.",
+			"2.33.",
+			"-2.33.0",
+			"2.33.0",
+			"2.33.1",
+			"Base.FileRedirect",
+			"!!!",
+			"!!!note",
+			" note ",
+			"note",
+			"describe",
+			"NES",
+			"nes",
+			"wells",
+			"\"",
+			" ",
+			"Death",
+			"Figure()",
+			"textsize",
+			"GLMakie",
+			"Figure(resolution",
+			"resolution",
+			"resolution = ",
+			"brian_data",
+			"NamedTupleTools = \"~",
+			"NamedTupleTools =",
+			"PRECIS(",
+			"sr_datadir, PRECIS",
+			"PRECIS",
+			"pairplot",
+			"size= de",
+			"resolution",
+			"resolution=",
+			"resolution =",
+			";size",
+			":size",
+			"resolution =",
+			"resolution=",
+			"resolution",
+			"2.33.0",
+			"StructuralCausalModels",
+			".SCM",
+			"2.32.0",
+			"sample",
+			"StanIO",
+			"OpenAI rjg",
+			"2.33.0",
+			"Documenter = \"0.27\"",
+			"2.32.0",
+			"-2.32.0",
+			"Pkg",
+			"create_fci_dag",
+			"create_pc_dag",
+			"create_pcalg_gauss_dag",
+			"create_pc_dag",
+			"create_pc_fag",
+			"create_tuple_list",
+			"@test ",
+			"- nightly",
+			"-2.27.0",
+			"- nightly",
+			"gvplot_g",
+			"to_gv2",
+			"gvplot_g",
+			"gvplot_est_g",
+			"to_gv",
+			"CairoMakie",
+			"to_gv",
+			"CairoMakie",
+			"StatsBase",
+			"dfAMD",
+			"DfAMD",
+			"DiffEqBayes.stan",
+			"'1.8'",
+			"2.31.0",
+			"pairplot",
+			"describe",
+			"decribe",
+			"2.31.0",
+			"dsep",
+			"edges(",
+			"function edges(",
+			"edges(",
+			"dot_repr"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"2.35.0",
+			"ArviZ",
+			"2.34.1",
+			"cmdstan-2.34.1",
+			"md\" #",
+			"md\"#### Julia",
+			"md\" #### Julia",
+			", 1000",
+			"describe",
+			"-2.34.0",
+			"v2.34.0",
+			"d/v2.34.0",
+			"-2.34.0",
+			"2.34.0",
+			"pathfinder",
+			"Pathfinder",
+			"d/v2.34.",
+			"-2.34.0",
+			"2.34.0",
+			"",
+			",",
+			"Figure(; size=default_figure_resolution)",
+			"fontsize",
+			"CairoMakie",
+			"; size=",
+			"describe(",
+			"sr_datadir",
+			"size=de",
+			";size= ",
+			";size = ",
+			"resolution = ",
+			"2.33.1",
+			"OpenAI_rjg",
+			"2.33.1",
+			"Documenter = \"1\"",
+			"2.33.0",
+			"-2.33.0",
+			"create_pcalg_gauss_dag",
+			"",
+			"-2.32.0",
+			"DiffEqBayesStan.stan",
+			"'1.9'",
+			"2.32.0",
+			"dot_str",
+			"StanExampleNotebooks",
+			"scale_df_cols!(",
+			"BS",
+			"second",
+			"2.31.0",
+			"sample_stats_nts",
+			"sample_stats_key_map",
+			"",
+			"2.30.1"
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/rob/Library/Application Support/Sublime Text 3/Packages/User/Projects/ISLR2.sublime-project",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1831,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										1829,
+										1830
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										0,
+										1
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"lsp_uri": "file:///Users/rob/Library/Application%20Support/Sublime%20Text%203/Packages/User/Projects/ISLR2.sublime-project",
+							"syntax": "Packages/JSON/JSON.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 45.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.Julia REPL":
+	{
+		"height": 130.0,
+		"history":
+		[
+		]
+	},
+	"output.LSP Log Panel":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"output.SublimeLinter":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"output.diagnostics":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"output.find_results":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"pinned_build_system": "Packages/SendCode/build_systems/Julia - Source File.sublime-build",
+	"project": "ISLR2.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"Stan/.travis.yml"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Sublime/Stan.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"lsp_show_inlay_hints": false
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 356.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
